@@ -1,7 +1,8 @@
 # LiftOff Stories
 
 An interactive reader for the stories in the LCentral **LiftOff Learn-to-Read**
-WorkBooks. It is modelled on the Story mode in
+WorkBooks. It currently holds 49 stories from WorkBooks 1, 3, 4, 5 and 6.
+WorkBook 2 has not been added yet. It is modelled on the Story mode in
 [PhonicsQuest](https://github.com/RiceTogether17/phonicsquest), but it has
 **no audio**. The child does the reading aloud, and the app supports it the
 way a LiftOff teacher would.
