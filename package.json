@@ -1,0 +1,17 @@
+{
+  "name": "liftoff-stories",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LiftOff Learn-to-Read workbook stories as an interactive reader (no audio).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
