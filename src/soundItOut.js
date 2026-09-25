@@ -35,6 +35,7 @@ export function closeSoundItOut() {
   if (!panel || panel.hidden) return;
   stopAudio();
   panel.hidden = true;
+  document.body.classList.remove('sio-open');
   document.querySelectorAll('.w.is-active').forEach((w) => w.classList.remove('is-active'));
   panel.returnFocus?.focus?.();
 }
@@ -152,5 +153,19 @@ export function openSoundItOut(word, from) {
 
   render();
   p.hidden = false;
-  (sight ? sayBtn ?? p.querySelector('.sio-close') : next).focus();
+  document.body.classList.add('sio-open'); // room to scroll the word above the panel
+  (sight ? sayBtn ?? p.querySelector('.sio-close') : next).focus({ preventScroll: true });
+
+  // Keep the tapped word in sight, just above the panel, so the child can
+  // see it in its sentence while blending.
+  if (from?.isConnected) {
+    const r = from.getBoundingClientRect();
+    const panelTop = p.getBoundingClientRect().top;
+    if (r.bottom > panelTop - 16) {
+      window.scrollBy({
+        top: r.bottom - panelTop + 32,
+        behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      });
+    }
+  }
 }

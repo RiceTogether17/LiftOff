@@ -10,7 +10,7 @@ question when they need help.
 |---|---|---|
 | 🤝 **Meet the Words** | Shows the lesson's vocabulary page and the story's key words before reading | "Teaching vocabulary before reading a passage improves … comprehension" |
 | 🎨 **Coding** | Shows the workbook colour coding: blue for long vowels, red for vowels that make another sound, green for diphthongs, grey for silent letters, and small cue letters above | Diacritical marking; switch it off to practise reading uncoded text |
-| 📏 **Ruler** | Keeps one line or paragraph in focus and dims the rest | Reading Ruler tracking |
+| 📏 **Ruler** | An on-screen Reading Ruler that sits under the line on screen. **Word** moves a pointer one word at a time, **Line** covers the lines still to come, and **Window** dims everything except the current line. Move it with Next / Back, the arrow keys, a tap on a line, or by dragging it. It follows the voice in Listen mode and keeps its place when the text is resized. | Reading Ruler tracking |
 | 🔤 **Sound It Out** | Tap a word to see its sounds, then add them one at a time: `m → ma → maf → maft`. Each sound plays as it is added, any tile can be tapped to hear it again, and 🔊 says the whole word once the child has blended it | Grapheme blending Stage 3 |
 | 🎧 **Listen** | Reads the story aloud, highlighting each word. Tap any line to start there; 🐢 slows it down. In a Readers Theatre, it pauses on the child's own lines | Modelled fluent reading |
 | 🔊 **Questions** | Every comprehension question can be read aloud | Comprehension for early readers |

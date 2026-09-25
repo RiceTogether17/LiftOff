@@ -3,14 +3,14 @@ import lockedContent from 'virtual:locked-content';
 import { WORKBOOKS, storyById, setContent } from './content.js';
 import { deriveKey, decryptWithKey, exportKey, importKey } from './lock.js';
 import { renderLibrary, renderProgress } from './library.js';
-import { renderReader, stopTimer } from './reader.js';
+import { renderReader, leaveReader } from './reader.js';
 import { closeSoundItOut } from './soundItOut.js';
 import { stopAudio } from './audio.js';
 
 const root = document.getElementById('app');
 
 function route() {
-  stopTimer();
+  leaveReader();
   stopAudio();
   closeSoundItOut();
   const [, view, id] = (location.hash.replace(/^#\/?/, '') || '').match(/^([^/]*)\/?(.*)$/) ?? [];

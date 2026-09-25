@@ -10,7 +10,7 @@ const EMPTY = {
   quiz: {}, // storyId -> { best, total, last }
   fluency: {}, // storyId -> [{ wcpm, seconds, date }]
   meet: {}, // storyId -> 'YYYY-MM-DD' Meet-the-Words completed
-  prefs: { coding: true, ruler: false, size: 1, sound: true, rate: 0.85 },
+  prefs: { coding: true, ruler: false, rulerMode: 'line', size: 1, sound: true, rate: 0.85 },
 };
 
 let state = load();

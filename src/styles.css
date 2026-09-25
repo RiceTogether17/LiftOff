@@ -375,12 +375,20 @@ h3 {
   visibility: hidden;
 }
 .legend {
+  margin: 6px 0 4px;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.legend summary {
+  width: fit-content;
+  padding: 4px 0;
+  font-family: var(--ui-font);
+  cursor: pointer;
+}
+.legend-items {
   display: flex;
   flex-wrap: wrap;
   gap: 6px 16px;
-  margin: 8px 0 4px;
-  font-size: 14px;
-  color: var(--ink-soft);
 }
 .legend b {
   font-size: 18px;
@@ -415,7 +423,7 @@ h3 {
 .toolbar {
   position: sticky;
   top: 0;
-  z-index: 3;
+  z-index: 5;
   display: flex;
   flex-wrap: wrap;
   gap: 8px 12px;
@@ -423,6 +431,11 @@ h3 {
   justify-content: space-between;
   padding: 8px 0;
   background: var(--page);
+  box-shadow: 0 10px 12px -12px rgba(31, 35, 48, 0.25);
+  transition: transform 0.22s ease;
+}
+.toolbar.is-tucked {
+  transform: translateY(-110%);
 }
 .seg {
   display: inline-flex;
@@ -433,8 +446,9 @@ h3 {
 }
 .seg-btn {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 6px;
   min-height: 48px;
   padding: 4px 16px;
   border: 0;
@@ -444,32 +458,50 @@ h3 {
   color: var(--ink);
   cursor: pointer;
 }
-.seg-btn small {
-  font-size: 12px;
-  color: var(--ink-soft);
+.seg-i {
+  font-size: 18px;
 }
 .seg-btn[aria-pressed='true'] {
   background: #fff;
   box-shadow: var(--shadow);
+  font-weight: 600;
 }
 .tools {
   display: flex;
-  flex-wrap: wrap;
   gap: 6px;
 }
 .tool {
-  min-height: 44px;
-  min-width: 44px;
-  padding: 6px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 52px;
+  min-width: 58px;
+  padding: 4px 8px;
   border: 2px solid var(--line);
-  border-radius: 12px;
+  border-radius: 14px;
   background: #fff;
-  font: 500 15px var(--ui-font);
+  color: var(--ink);
+  font: 500 12px var(--ui-font);
   cursor: pointer;
+}
+.tool-i {
+  font-size: 20px;
+  line-height: 1;
+}
+.tool-i small {
+  font-size: 0.7em;
 }
 .tool[aria-pressed='true'] {
   border-color: var(--brand);
   background: #fff1ec;
+  color: var(--brand-ink);
+}
+.mode-hint {
+  margin: 4px 0 2px;
+  font: 400 15px/1.4 var(--ui-font);
+  color: var(--ink-soft);
 }
 .role-pick {
   display: inline-flex;
@@ -489,6 +521,7 @@ h3 {
 }
 .story {
   --size: 1;
+  position: relative;
   margin-top: 8px;
   padding: clamp(18px, 4vw, 36px);
   border-radius: var(--radius);
@@ -563,30 +596,179 @@ h3 {
   background: color-mix(in srgb, var(--role) 10%, #fff);
 }
 
-/* Reading ruler: one part in focus, a ruler line underneath */
-.ruler-on .blk {
-  opacity: 0.28;
+/* ── Reading Ruler ─────────────────────────────────────────────────
+   An overlay inside .story: veils cover the lines above / below, a strip
+   lights the line (Window), a box points at the word (Word), and the ruler
+   itself hangs under the line. Only the ruler takes pointer events. */
+.story.has-ruler .blk {
   cursor: pointer;
 }
-.ruler-on .blk.is-current {
-  opacity: 1;
-  box-shadow: 0 6px 0 -3px var(--brand);
-  border-radius: 6px;
+.ruler-layer {
+  /* no z-index: the highlight must blend with the text underneath */
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
 }
-.ruler-nav {
-  position: sticky;
-  bottom: 12px;
-  z-index: 3;
+.ruler-layer > * {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: top 0.2s ease, height 0.2s ease, left 0.2s ease, width 0.2s ease;
+}
+.ruler-layer.no-anim > *,
+.ruler-layer.no-anim .ruler-bar::after,
+.ruler-layer.is-dragging > * {
+  transition: none;
+}
+.ruler-veil--above {
+  top: 0;
+  background: rgba(255, 253, 247, 0.5);
+}
+.ruler-veil--below {
+  background: rgba(255, 253, 247, 0.9);
+}
+.ruler-layer--window .ruler-veil {
+  background: rgba(255, 253, 247, 0.85);
+}
+.ruler-strip,
+.ruler-word {
+  display: none;
+  mix-blend-mode: multiply;
+}
+.ruler-layer--window .ruler-strip {
+  display: block;
+  background: #fff4bf;
+}
+.ruler-layer--word .ruler-word {
+  display: block;
+  right: auto;
+  border-radius: 8px;
+  background: #ffe48a;
+}
+.ruler-bar {
+  left: 6px;
+  right: 6px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
+  align-items: stretch;
+  border-top: 3px solid var(--brand);
+  border-radius: 3px 3px 6px 6px;
+  background: #ffe9d6;
+  box-shadow: 0 3px 8px rgba(31, 35, 48, 0.18);
+  pointer-events: auto;
+  touch-action: none;
+  cursor: grab;
+}
+.is-dragging .ruler-bar {
+  cursor: grabbing;
+  background: #ffdcbd;
+}
+.ruler-arrow {
+  display: grid;
+  place-items: center;
+  padding: 0 4px;
+  color: var(--brand);
+  font-size: 11px;
+}
+.ruler-ticks {
+  flex: 1;
+  background:
+    repeating-linear-gradient(90deg, rgba(184, 61, 27, 0.75) 0 2px, transparent 2px 60px) 0 0 / 100% 70% no-repeat,
+    repeating-linear-gradient(90deg, rgba(184, 61, 27, 0.45) 0 1px, transparent 1px 12px) 0 0 / 100% 38% no-repeat;
+}
+.ruler-grip {
+  display: grid;
+  place-items: center;
+  padding: 0 6px;
+  color: var(--brand-ink);
+  font-size: 13px;
+  line-height: 1;
+}
+/* Word mode: a pointer on the ruler, under the word */
+.ruler-layer--word .ruler-bar::after {
+  content: '';
+  position: absolute;
+  top: -11px;
+  left: var(--x, 0);
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-top: 0;
+  border-bottom-color: var(--brand);
+  transition: left 0.2s ease;
+}
+
+/* ── Dock: listen + ruler controls, one bar at the bottom ─────────── */
+.dock {
+  position: sticky;
+  bottom: 10px;
+  z-index: 4;
+  display: grid;
+  gap: 8px;
   margin-top: 12px;
   padding: 8px;
-  border-radius: 999px;
-  background: rgba(255, 253, 247, 0.95);
-  box-shadow: var(--shadow);
+  border-radius: 24px;
+  background: rgba(255, 253, 247, 0.97);
+  box-shadow: 0 6px 28px rgba(31, 35, 48, 0.18);
   font-family: var(--ui-font);
+}
+.ruler-nav,
+.listen-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ruler-nav + .listen-bar,
+.listen-bar + .ruler-nav {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+.ruler-style {
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  min-width: 64px;
+  min-height: 52px;
+  padding: 2px 10px;
+  border-radius: 16px;
+  line-height: 1.1;
+}
+.rs-i {
+  font-size: 18px;
+}
+.ruler-style small {
+  font-size: 12px;
+}
+.ruler-back {
+  justify-content: center;
+  min-width: 48px;
+  padding: 8px;
+}
+.ruler-pos {
+  flex: 1;
+  white-space: nowrap;
+  display: grid;
+  justify-items: center;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.ruler-pos small {
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+.ruler-pos b {
+  font-weight: 600;
+}
+.ruler-next {
+  justify-content: center;
+  white-space: nowrap;
+  min-width: 132px;
+  min-height: 52px;
+  font-weight: 600;
+}
+.ruler-next.is-end {
+  background: var(--ok);
+  border-color: var(--ok);
 }
 
 /* Sound It Out mode: words are buttons */
@@ -742,28 +924,18 @@ button.tile {
 }
 
 /* ── Listen ─────────────────────────────────────────────────────────── */
-.listen-bar {
-  position: sticky;
-  bottom: 12px;
-  z-index: 3;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 10px;
-  margin-top: 12px;
-  padding: 10px 14px;
-  border-radius: 22px;
-  background: rgba(255, 253, 247, 0.97);
-  box-shadow: var(--shadow);
-  font-family: var(--ui-font);
-}
 .listen-bar .btn[aria-pressed='true'] {
   border-color: var(--brand);
   background: #fff1ec;
 }
-.listen-hint {
-  flex: 1 1 200px;
-  font-size: 14px;
+.listen-play {
+  min-width: 120px;
+  justify-content: center;
+  font-weight: 600;
+}
+.listen-bar--off {
+  justify-content: center;
+  padding: 6px;
   color: var(--ink-soft);
 }
 .is-listen .blk {
@@ -1022,8 +1194,44 @@ th {
   .story {
     font-size: calc(19px * var(--size));
   }
+  .toolbar {
+    gap: 6px;
+  }
+  .seg,
+  .tools {
+    width: 100%;
+  }
   .seg-btn {
-    padding: 4px 10px;
+    flex: 1;
+    flex-direction: column;
+    gap: 0;
+    min-height: 50px;
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 1.15;
+  }
+  .tool {
+    flex: 1;
+    min-width: 0;
+    padding: 4px 2px;
+  }
+  .wide-only {
+    display: none;
+  }
+  .ruler-next {
+    min-width: 0;
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+  .listen-play {
+    flex: 1;
+  }
+  .table-wrap table {
+    font-size: 14px;
+  }
+  .table-wrap th,
+  .table-wrap td {
+    padding: 8px 6px;
   }
   .lib-progress {
     margin-left: 0;
@@ -1034,4 +1242,9 @@ th {
   * {
     transition: none !important;
   }
+}
+
+/* Room to scroll a tapped word above the Sound It Out panel */
+.sio-open main {
+  padding-bottom: 65vh;
 }
