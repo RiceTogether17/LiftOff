@@ -1,11 +1,10 @@
 /**
- * Story reader — the LiftOff take on PhonicsQuest's story reader, with all
- * audio removed. Reading happens aloud *by the child*; the app supports it
- * visually:
+ * Story reader — the LiftOff take on PhonicsQuest's story reader.
  *
  *   🤝 Meet the Words   the lesson's vocabulary page, before reading
- *   📖 Read             workbook colour coding + a reading ruler
- *   🔤 Sound It Out     tap a word to blend it one sound at a time
+ *   📖 Read             the child reads aloud; colour coding + reading ruler
+ *   🔤 Sound It Out     tap a word to blend it one sound at a time (with audio)
+ *   🎧 Listen           the story is read aloud, word by word highlighted
  *   ⏱ Fluency timer     words correct per minute, saved per story
  *   ✏️ Check            the workbook's own comprehension activity
  */
@@ -14,8 +13,10 @@ import { store } from './store.js';
 import { esc, wordHtml, wordsHtml } from './render.js';
 import { openSoundItOut, closeSoundItOut } from './soundItOut.js';
 import { renderQuiz } from './quiz.js';
+import { say, soundOn, stopAudio, canSpeak } from './audio.js';
 
-let mode = 'read'; // 'read' | 'decode'
+let mode = 'read'; // 'read' | 'decode' | 'listen'
+let listen = null; // { index, playing, gen }
 let rulerIndex = 0;
 let timer = null;
 
@@ -83,7 +84,7 @@ function renderGate(dyn, story, words) {
   dyn.innerHTML = `
     <section class="gate" aria-labelledby="gate-title">
       <h2 id="gate-title">🤝 Meet the Words</h2>
-      <p>Read these words aloud before the story. Tap a word you're unsure of to <strong>sound it out</strong>.
+      <p>Read these words aloud before the story. Tap a word you're unsure of to <strong>sound it out</strong>${soundOn() ? ' and hear it' : ''}.
          Read or tap <strong>any ${target}</strong> to warm up.</p>
       ${keyWords.length ? `<h3 class="gate-sub">📚 Key words in this story — talk about what they mean</h3><div class="chip-wrap">${chips(keyWords)}</div>` : ''}
       ${vocab.length ? `<h3 class="gate-sub">🔤 Lesson ${esc(story.lesson)} vocabulary page</h3><div class="chip-wrap">${chips(vocab)}</div>` : ''}
@@ -127,7 +128,7 @@ function blockHtml(block, bi, story) {
       const inner = wordHtml(w);
       return mode === 'decode' && /[A-Za-z]/.test(w.text)
         ? `<button type="button" class="${cls}" data-b="${bi}" data-w="${wi}">${inner}</button>`
-        : `<span class="${cls}">${inner}</span>`;
+        : `<span class="${cls}" data-w="${wi}">${inner}</span>`;
     })
     .join(' ');
   if (block.type === 'h') return `<h3 class="blk blk--h" data-b="${bi}">${words}</h3>`;
@@ -153,8 +154,11 @@ function renderBody(dyn, story) {
           <span>📖 Read</span><small>you read aloud</small></button>
         <button type="button" class="seg-btn" data-mode="decode" aria-pressed="${mode === 'decode'}">
           <span>🔤 Sound It Out</span><small>tap a tricky word</small></button>
+        <button type="button" class="seg-btn" data-mode="listen" aria-pressed="${mode === 'listen'}">
+          <span>🎧 Listen</span><small>hear it read</small></button>
       </div>
       <div class="tools">
+        <button type="button" class="tool" data-pref="sound" aria-pressed="${prefs.sound !== false}" title="Turn sounds and reading aloud on or off">${prefs.sound !== false ? '🔊' : '🔇'} Sound</button>
         <button type="button" class="tool" data-pref="coding" aria-pressed="${prefs.coding}" title="Show the workbook's colour coding">🎨 Coding</button>
         <button type="button" class="tool" data-pref="ruler" aria-pressed="${prefs.ruler}" title="Focus on one part at a time, like your Reading Ruler">📏 Ruler</button>
         <button type="button" class="tool" data-size="-1" aria-label="Smaller text">A−</button>
@@ -170,10 +174,11 @@ function renderBody(dyn, story) {
               .join('')}</select></label>`
         : ''
     }
-    <div class="story${prefs.coding ? '' : ' coding-off'}${prefs.ruler ? ' ruler-on' : ''}${mode === 'decode' ? ' is-decode' : ''}"
+    <div class="story${prefs.coding ? '' : ' coding-off'}${prefs.ruler ? ' ruler-on' : ''}${mode === 'decode' ? ' is-decode' : ''}${mode === 'listen' ? ' is-listen' : ''}"
          style="--size:${prefs.size}" tabindex="-1">
       ${story.blocks.map((b, i) => blockHtml(b, i, story)).join('')}
     </div>
+    ${mode === 'listen' ? listenBarHtml() : ''}
     <div class="ruler-nav" ${prefs.ruler ? '' : 'hidden'}>
       <button class="btn btn--ghost" type="button" data-ruler="-1" aria-label="Previous part">◀ Back</button>
       <span class="ruler-pos" aria-live="polite"></span>
@@ -200,6 +205,7 @@ function renderBody(dyn, story) {
     b.addEventListener('click', () => {
       mode = b.dataset.mode;
       closeSoundItOut();
+      stopListening();
       renderBody(dyn, story);
     }),
   );
@@ -207,7 +213,9 @@ function renderBody(dyn, story) {
   // Scaffold toggles
   dyn.querySelectorAll('[data-pref]').forEach((b) =>
     b.addEventListener('click', () => {
-      store.setPref(b.dataset.pref, !store.prefs[b.dataset.pref]);
+      const key = b.dataset.pref;
+      store.setPref(key, !(store.prefs[key] ?? true));
+      if (key === 'sound') stopListening();
       renderBody(dyn, story);
     }),
   );
@@ -240,8 +248,14 @@ function renderBody(dyn, story) {
       return;
     }
     const blk = e.target.closest('.blk');
+    if (blk && mode === 'listen' && !blk.classList.contains('note')) {
+      startListening(dyn, story, Number(blk.dataset.b));
+      return;
+    }
     if (blk && storyEl.classList.contains('ruler-on')) setRuler(dyn, Number(blk.dataset.b));
   });
+
+  if (mode === 'listen') wireListenBar(dyn, story);
 
   // Reading ruler
   const blocks = [...storyEl.querySelectorAll('.blk')];
@@ -315,4 +329,111 @@ function fmt(s) {
 export function stopTimer() {
   if (timer) clearInterval(timer.id);
   timer = null;
+  stopListening();
+}
+
+// ── Listen ─────────────────────────────────────────────────────────────────
+
+function listenBarHtml() {
+  if (!soundOn()) {
+    return `<div class="listen-bar"><span>🔇 Sound is off. Turn on 🔊 Sound to hear the story.</span></div>`;
+  }
+  if (!canSpeak()) {
+    return `<div class="listen-bar"><span>This device can't read aloud. Try another browser.</span></div>`;
+  }
+  const slow = (store.prefs.rate ?? 0.85) < 0.8;
+  return `
+    <div class="listen-bar" role="group" aria-label="Listen controls">
+      <button class="btn btn--primary" type="button" data-listen="play">▶ Play</button>
+      <button class="btn btn--ghost" type="button" data-listen="restart">⏮ From the start</button>
+      <button class="btn btn--ghost" type="button" data-listen="speed" aria-pressed="${slow}">🐢 Slower</button>
+      <span class="listen-hint">Follow the words with your eyes. Tap any line to hear it from there.</span>
+    </div>`;
+}
+
+function wireListenBar(dyn, story) {
+  listen = { index: listen?.story === story.id ? listen.index : 0, playing: false, gen: 0, story: story.id };
+  dyn.querySelector('[data-listen="play"]')?.addEventListener('click', () => {
+    if (listen.playing) stopListening(true);
+    else startListening(dyn, story, listen.index);
+  });
+  dyn.querySelector('[data-listen="restart"]')?.addEventListener('click', () => startListening(dyn, story, 0));
+  dyn.querySelector('[data-listen="speed"]')?.addEventListener('click', (e) => {
+    const slow = (store.prefs.rate ?? 0.85) < 0.8;
+    store.setPref('rate', slow ? 0.85 : 0.65);
+    e.currentTarget.setAttribute('aria-pressed', String(!slow));
+  });
+}
+
+function setPlayLabel(dyn, text) {
+  const b = dyn.querySelector('[data-listen="play"]');
+  if (b) b.textContent = text;
+}
+
+function clearSpeaking(dyn) {
+  dyn.querySelectorAll('.is-speaking').forEach((el) => el.classList.remove('is-speaking'));
+}
+
+async function startListening(dyn, story, from) {
+  stopAudio();
+  const gen = (listen.gen = (listen.gen ?? 0) + 1);
+  listen.playing = true;
+  listen.index = from;
+  setPlayLabel(dyn, '⏸ Pause');
+  const role = dyn.querySelector('.role-pick select')?.value;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  for (let bi = from; bi < story.blocks.length; bi++) {
+    if (gen !== listen.gen) return;
+    const block = story.blocks[bi];
+    const el = dyn.querySelector(`.story .blk[data-b="${bi}"]`);
+    if (block.type === 'note' || !el) continue;
+    listen.index = bi;
+    clearSpeaking(dyn);
+    el.classList.add('is-speaking');
+    el.scrollIntoView({ block: 'center', behavior: reduce ? 'auto' : 'smooth' });
+
+    // Readers theatre: pause on the child's own lines so they read their part.
+    if (role && block.type === 'script' && (block.role === role || block.role === 'N2')) {
+      listen.index = bi + 1;
+      listen.playing = false;
+      setPlayLabel(dyn, '▶ Your turn! Tap when you have read it');
+      return;
+    }
+
+    // Build the spoken text and remember where each word starts.
+    const spans = [...el.querySelectorAll('[data-w]')];
+    let text = '';
+    const starts = [];
+    block.words.forEach((w) => {
+      starts.push(text.length);
+      text += w.text + ' ';
+    });
+    const ok = await say(text, {
+      rate: store.prefs.rate ?? 0.85,
+      onWord: (ci) => {
+        let wi = 0;
+        while (wi + 1 < starts.length && starts[wi + 1] <= ci) wi++;
+        spans.forEach((s) => s.classList.toggle('is-speaking', Number(s.dataset.w) === wi));
+      },
+    });
+    if (!ok || gen !== listen.gen) return;
+  }
+  listen.index = 0;
+  listen.playing = false;
+  clearSpeaking(dyn);
+  setPlayLabel(dyn, '▶ Play again');
+}
+
+function stopListening(keepPlace = false) {
+  if (!listen) return;
+  listen.gen = (listen.gen ?? 0) + 1;
+  listen.playing = false;
+  stopAudio();
+  const dyn = document.querySelector('.reader-dynamic');
+  if (dyn) {
+    if (!keepPlace) clearSpeaking(dyn);
+    else dyn.querySelectorAll('.w.is-speaking').forEach((el) => el.classList.remove('is-speaking'));
+    setPlayLabel(dyn, keepPlace ? '▶ Carry on' : '▶ Play');
+  }
 }

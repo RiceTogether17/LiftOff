@@ -11,6 +11,14 @@
 
 import { esc } from './render.js';
 import { store } from './store.js';
+import { say, soundOn } from './audio.js';
+
+/** 🔊 button that reads a question (and its options) aloud. */
+function sayBtn(text) {
+  if (!soundOn()) return '';
+  const spoken = text.replace(/_{2,}/g, ', blank, ');
+  return `<button class="q-say" type="button" data-say="${esc(spoken)}" aria-label="Read the question aloud">🔊</button>`;
+}
 
 const SCORED = new Set(['tf', 'mc', 'cloze', 'order']);
 
@@ -66,6 +74,11 @@ export function renderQuiz(container, story) {
     };
     ({ tf, mc, cloze, order, qa, talk })[q.type]?.(li, q, i, done);
   });
+
+  container.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-say]');
+    if (b) say(b.dataset.say, { rate: Math.min(store.prefs.rate ?? 0.85, 0.85) });
+  });
 }
 
 function marks(q) {
@@ -87,7 +100,7 @@ function feedback(li, ok, text) {
 }
 
 function tf(li, q, i, done) {
-  li.innerHTML = `<p class="q-prompt">${esc(q.prompt)}</p>
+  li.innerHTML = `<p class="q-prompt">${sayBtn(q.prompt + ' True or false?')}${esc(q.prompt)}</p>
     <div class="q-choices" role="group" aria-label="True or false">
       <button class="chip" type="button" data-v="true">True</button>
       <button class="chip" type="button" data-v="false">False</button>
@@ -105,7 +118,8 @@ function tf(li, q, i, done) {
 }
 
 function mc(li, q, i, done) {
-  li.innerHTML = `<p class="q-prompt">${esc(q.prompt)}</p>
+  const spoken = `${q.prompt} ${q.options.map((o, k) => `${'abcd'[k]}: ${o}.`).join(' ')}`;
+  li.innerHTML = `<p class="q-prompt">${sayBtn(spoken)}${esc(q.prompt)}</p>
     <div class="q-choices q-choices--stack" role="group">
       ${q.options.map((o, k) => `<button class="chip" type="button" data-k="${k}"><span class="chip-letter">${'abcd'[k]}</span> ${esc(o)}</button>`).join('')}
     </div>`;
@@ -125,7 +139,7 @@ function cloze(li, q, i, done) {
   const parts = q.prompt.split('___');
   const bank = q.bank.length ? q.bank : q.answers;
   const options = [...new Set(shuffle(bank, i + 7))];
-  li.innerHTML = `<p class="q-prompt q-cloze">${parts
+  li.innerHTML = `<p class="q-prompt q-cloze">${sayBtn(q.prompt)}${parts
     .map(
       (p, k) =>
         esc(p) +
@@ -166,7 +180,7 @@ function order(li, q, i, done) {
     i + 3,
   );
   const picked = [];
-  li.innerHTML = `<p class="q-prompt">Tap the events in the order they happened.</p>
+  li.innerHTML = `<p class="q-prompt">${sayBtn('Tap the events in the order they happened. ' + q.items.map((it) => it.text).join(' '))}Tap the events in the order they happened.</p>
     <div class="q-order">${items
       .map((it) => `<button class="chip chip--block" type="button" data-k="${it.k}"><span class="order-n"></span>${esc(it.text)}</button>`)
       .join('')}</div>`;
@@ -191,11 +205,11 @@ function order(li, q, i, done) {
 }
 
 function qa(li, q) {
-  li.innerHTML = `<p class="q-prompt">${esc(q.prompt)}</p>
+  li.innerHTML = `<p class="q-prompt">${sayBtn(q.prompt)}${esc(q.prompt)}</p>
     <textarea class="q-answer" rows="2" placeholder="Say your answer in a full sentence, or write it here."></textarea>
     <details class="q-model"><summary>Show a model answer</summary><p>${esc(q.answer || 'Answers will vary.')}</p></details>`;
 }
 
 function talk(li, q) {
-  li.innerHTML = `<p class="q-prompt">💬 ${esc(q.prompt)}</p>`;
+  li.innerHTML = `<p class="q-prompt">${sayBtn(q.prompt)}💬 ${esc(q.prompt)}</p>`;
 }

@@ -3,11 +3,19 @@
  *
  * Coded segments are already one grapheme each (the workbook marks "ai",
  * "igh", "ear" … as a unit). Plain runs are split letter by letter, keeping
- * common consonant digraphs and doubled letters together so that "shell"
- * becomes sh · e · ll, matching how LiftOff students blend.
+ * digraphs, vowel teams and doubled letters together so that "shell" becomes
+ * sh · e · ll, matching how LiftOff students blend.
  */
 
-const DIGRAPHS = ['tch', 'dge', 'sh', 'ch', 'th', 'wh', 'ph', 'ck', 'ng', 'qu', 'wr', 'kn'];
+// Longest first. Consonant digraphs, plus the vowel teams and r-controlled
+// spellings the CheckOut lessons teach, so uncoded text still splits into
+// sounds (r·ai·n, n·igh·t, st·ar·t).
+const DIGRAPHS = [
+  'tch', 'dge', 'igh', 'air', 'ear', 'eer', 'oar', 'oor', 'our',
+  'sh', 'ch', 'th', 'wh', 'ph', 'ck', 'ng', 'qu', 'wr', 'kn',
+  'ai', 'ay', 'ee', 'ea', 'ie', 'oa', 'oe', 'ew', 'ue', 'oo', 'ow', 'ou', 'oi', 'oy',
+  'ar', 'or', 'er', 'ir', 'ur', 'aw', 'au',
+];
 
 function splitPlain(text) {
   const out = [];
@@ -56,8 +64,10 @@ export function blendSteps(graphemes) {
   const steps = [];
   let acc = '';
   for (const g of graphemes) {
-    // A grey letter with a cue above it still makes the cue's sound.
-    if (g.kind === 'silent' && !g.cue) continue;
+    // Silent letters are skipped. Once sounds are assigned (phonemes.js) that
+    // includes uncoded silent letters such as magic e; before that, grey
+    // letters without a cue (a cue means the letter makes that sound).
+    if ('sound' in g ? !g.sound : g.kind === 'silent' && !g.cue) continue;
     acc += g.text;
     steps.push(acc);
   }

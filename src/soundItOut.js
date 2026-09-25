@@ -1,16 +1,19 @@
 /**
- * "Sound It Out" panel — the visual (no audio) replacement for PhonicsQuest's
- * tap-to-hear decoder.
+ * "Sound It Out" panel — tap a word to decode it one sound at a time.
  *
- * It follows LiftOff's own rules: the app never says the sound (Rule 1) and
- * never gives the word away (Rule 2). The child sees the graphemes coloured
- * with the workbook coding, then reveals one sound at a time and blends it
- * onto the sounds before it — cumulative grapheme blending, Stage 3.
+ * The graphemes are shown with the workbook colour coding. Each time the
+ * child adds a sound, its recording plays and it is blended onto the sounds
+ * before it — cumulative grapheme blending (LiftOff Stage 3). Tiles can be
+ * tapped to hear a sound again, and 🔊 plays the whole word once the child
+ * has had a go. Sight words are heard as whole words.
  */
 
 import { toGraphemes, blendSteps, suffixHint } from './graphemes.js';
+import { assignSounds } from './phonemes.js';
+import { playSound, playSounds, preload, say, soundOn, stopAudio } from './audio.js';
 import { esc, segHtml, wordHtml } from './render.js';
 import { isSightWord } from './sightWords.js';
+import { store } from './store.js';
 
 let panel = null;
 
@@ -30,6 +33,7 @@ function ensurePanel() {
 
 export function closeSoundItOut() {
   if (!panel || panel.hidden) return;
+  stopAudio();
   panel.hidden = true;
   document.querySelectorAll('.w.is-active').forEach((w) => w.classList.remove('is-active'));
   panel.returnFocus?.focus?.();
@@ -42,17 +46,20 @@ export function closeSoundItOut() {
 export function openSoundItOut(word, from) {
   const p = ensurePanel();
   p.returnFocus = from ?? null;
-  const graphemes = toGraphemes(word.segs);
+  const graphemes = assignSounds(toGraphemes(word.segs), word.word);
   const steps = blendSteps(graphemes);
   const hint = suffixHint(word.word);
   const uncoded = word.segs.every((s) => s.kind === 'plain' && !s.cue);
   const sight = uncoded && isSightWord(word.word);
+  const audio = soundOn();
   let shown = 0;
+  preload(graphemes.map((g) => g.sound));
 
   const tiles = graphemes
     .map(
       (g, i) =>
-        `<span class="tile tile--${g.kind}${g.cue ? ' has-cue' : ''}" data-i="${i}">${segHtml({ ...g, text: g.text })}</span>`,
+        `<button type="button" class="tile tile--${g.kind}${g.cue ? ' has-cue' : ''}${g.sound ? '' : ' is-quiet'}" data-i="${i}"
+           aria-label="${g.sound ? `Hear the sound for ${esc(g.text)}` : `${esc(g.text)} is silent`}">${segHtml({ ...g, text: g.text })}</button>`,
     )
     .join('');
 
@@ -67,14 +74,17 @@ export function openSoundItOut(word, from) {
           : `<div class="sio-tiles" aria-label="Sounds in this word">${tiles}</div>`
       }
       ${
-        graphemes.some((g) => g.kind === 'silent' && !g.cue)
+        !sight && graphemes.some((g) => !g.sound)
           ? '<p class="sio-note">Grey letters are silent — skip them.</p>'
           : ''
       }
+      ${!sight && audio ? '<p class="sio-note">Tap a sound to hear it.</p>' : ''}
       <ol class="sio-ladder" aria-live="polite" ${sight ? 'hidden' : ''}></ol>
-      <div class="sio-actions" ${sight ? 'hidden' : ''}>
-        <button class="btn btn--primary sio-next" type="button">Add a sound ▶</button>
-        <button class="btn btn--ghost sio-again" type="button" hidden>Start again ↺</button>
+      <div class="sio-actions">
+        ${sight ? '' : '<button class="btn btn--primary sio-next" type="button">Add a sound ▶</button>'}
+        ${sight ? '' : '<button class="btn btn--ghost sio-again" type="button" hidden>Start again ↺</button>'}
+        ${audio && !sight ? '<button class="btn btn--ghost sio-sounds" type="button" hidden>🔈 All the sounds</button>' : ''}
+        ${audio ? `<button class="btn ${sight ? 'btn--primary' : 'btn--ghost'} sio-say" type="button" ${sight ? '' : 'hidden'}>🔊 Hear the word</button>` : ''}
       </div>
       ${
         hint
@@ -88,7 +98,10 @@ export function openSoundItOut(word, from) {
   const ladder = p.querySelector('.sio-ladder');
   const next = p.querySelector('.sio-next');
   const again = p.querySelector('.sio-again');
-  const sounding = graphemes.map((g, i) => (g.kind === 'silent' && !g.cue ? -1 : i)).filter((i) => i >= 0);
+  const sayBtn = p.querySelector('.sio-say');
+  const soundsBtn = p.querySelector('.sio-sounds');
+  const sounding = graphemes.map((g, i) => (g.sound ? i : -1)).filter((i) => i >= 0);
+  const rate = () => Math.min(store.prefs.rate ?? 0.85, 0.85);
 
   const render = () => {
     ladder.innerHTML = steps
@@ -102,28 +115,42 @@ export function openSoundItOut(word, from) {
       t.classList.toggle('is-current', order === shown - 1);
     });
     const done = shown >= steps.length;
-    next.hidden = done;
-    again.hidden = !done;
+    if (next) next.hidden = done;
+    if (again) again.hidden = !done;
+    // The whole word is offered once the child has blended every sound.
+    if (sayBtn && !sight) sayBtn.hidden = !done;
+    if (soundsBtn) soundsBtn.hidden = !done;
     if (done && steps.length) {
       ladder.insertAdjacentHTML(
         'beforeend',
-        '<li class="sio-done">Now say the whole word. Does it make sense in the sentence?</li>',
+        `<li class="sio-done">Now say the whole word${audio ? ', then tap 🔊 to check' : ''}. Does it make sense in the sentence?</li>`,
       );
     }
   };
 
-  next.addEventListener('click', () => {
+  next?.addEventListener('click', () => {
     shown = Math.min(steps.length, shown + 1);
     render();
+    playSound(graphemes[sounding[shown - 1]]?.sound);
   });
-  again.addEventListener('click', () => {
+  again?.addEventListener('click', () => {
     shown = 0;
     render();
     next.focus();
   });
+  p.querySelectorAll('.tile').forEach((t) =>
+    t.addEventListener('click', () => {
+      const g = graphemes[Number(t.dataset.i)];
+      t.classList.add('is-tapped');
+      setTimeout(() => t.classList.remove('is-tapped'), 300);
+      playSound(g.sound);
+    }),
+  );
+  soundsBtn?.addEventListener('click', () => playSounds(graphemes.map((g) => g.sound)));
+  sayBtn?.addEventListener('click', () => say(word.word, { rate: rate() }));
   p.querySelector('.sio-close').addEventListener('click', closeSoundItOut);
 
   render();
   p.hidden = false;
-  (sight ? p.querySelector('.sio-close') : next).focus();
+  (sight ? sayBtn ?? p.querySelector('.sio-close') : next).focus();
 }
