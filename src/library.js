@@ -21,7 +21,10 @@ export function renderLibrary(root, activeId) {
           <h1>🚀 LiftOff Stories</h1>
           <p class="lib-sub">Read the Learn-to-Read workbook stories. You read aloud; the app helps you track, decode and check.</p>
         </div>
-        <a class="btn btn--ghost" href="#/progress">📊 Progress</a>
+        <span class="lib-actions">
+          <a class="btn btn--ghost" href="#/progress">📊 Progress</a>
+          <a class="btn btn--ghost" href="#/lock" title="Lock the stories on this device">🔒 Lock</a>
+        </span>
       </header>
       <nav class="shelves" aria-label="Workbooks">
         ${WORKBOOKS.map((w) => {
