@@ -1,0 +1,316 @@
+# WB4 | Workbook 4 | Diphthongs
+
+## L20 | Diphthong /air/
+focus: air
+words: ch<air> p<a>^{air}rents f<air>y h<air> w<ear>^{air} h<air>y hardw<are>^{air} st<air>s decl<are>^{air} sc<are>^{air} sp<are>^{air} r<are>^{air} b<are>^{air} comp<are>^{air} bew<are>^{air} <air> ev[e]r(y)^ewhere there their where
+
+### M<a>^{air}ry Goes Shopping
+M<a>^{air}ry and her p<a>^{air}rents went shopping at Pacific F<air>.
+
+They went ev[e]r(y)^ewhere. Her dad look[e]d at hardw<are>^{air} and comp<are>^{air}d sp<are>^{air} parts for the car. Her mum look[e]d at cookw<are>^{air} and t(a)bl[e]w<are>^{air}, incl(u)^{oo}ding squ<are>^{air} plates.
+
+M<a>^{air}ry's mother had to buy M<a>^{air}ry some new p<air>s of underw<ear>^{air}, so they went to the shop which sold lots of cl(o)th[e]s, incl(u)^{oo}ding [k]nitw<ear>^{air} and footw<ear>^{air}. At the games shop, M<a>^{air}ry got a teddy b<ear>^{air}.
+
+At the pet shop, they wa[t]ch[e]d a r<are>^{air} p<air> of h<are>^{air}s. On the cage it said, 'Bew<are>^{air}! W(e) bite! Take c<are>^{air}'. M<a>^{air}ry got her h<air> cut and receiv[e]d a new h<air>brush as a gift. Finally, they got some p<ear>^{air}s and went home.
+
+While her mum prep<are>^{air}d lunch, M<a>^{air}ry unpack[e]d all of the shopping: the sp<are>^{air} parts, the home w<are>^{air}s, the teddy b<ear>^{air} and the p<ear>^{air}s. But her new underw<ear>^{air} was nowhere. She look[e]d here and there. She look[e]d for them ev[e]r(y)^ewhere. They were not behind the ch<air>, not under the st<air>s, not anywhere.
+
+M<a>^{air}ry sat on the ch<air> and ate one of the p<ear>^{air}s. She look[e]d over at the opposit[e] ch<air> and n(o)tic[e]d a t<ear>^{air} that needed rep<air>.
+
+Something was sitting inside the t<ear>^{air} so M<a>^{air}ry look[e]d to see what was hidden there. Inside the t<ear>^{air}, M<a>^{air}ry saw the brush for her h<air> ... and her new underw<ear>^{air}!
+
+?mc Who went shopping with Mary?
+* Mary's parents
+- Mary's grandparents
+- Mary's cousin
+- Mary went alone
+?mc Mary's father ___.
+- stayed home
+- looked at cars
+* compared car parts
+- looked at cookware
+?mc Where did Mary's mum buy Mary's new underwear?
+- the hardware shop
+- the cookware shop
+* the clothes shop
+- they didn't buy any
+?mc What did Mary get from the games shop?
+- a pair of hares
+* a teddy bear
+- a hair cut
+- a pair of pears
+?mc Who prepared lunch in the story?
+- The lady in the shop
+- Dad
+- Mary
+* Mary's mum
+?mc What did Mary eat for lunch?
+- pears
+- noodles
+- chicken rice
+* the story doesn't say
+?mc Where did Mary find her underwear?
+- on the chair
+* in a tear in the chair
+- behind the chair
+- under the chair
+
+### Cl<air>[e] the F<air>y
+There once was a f<air>y named Cl<air>[e]. She was a f<air>ly large f<air>y and her f<air> h<air> was t(i)[e]d back with a h<air> band. On her back, she had a magnificent p<air> of green wings. One day, Cl<air>[e] fl(ew)^{oo} through the air to a f<air>. She went there to buy a p<air> of r<are>^{air} gold rings for her p<a>^{air}rents. She look[e]d ev[e]r(y)^ewhere but began to desp<air>. She could not find a p<air> of r<are>^{air} gold rings anywhere!
+
+Then, suddenly, Cl<air>[e] saw a ch<air> that needed rep<air>s. There they were, sitting on the damag[e]d ch<air>. Her <ar>ms shot up in the air with del(i)[gh]t. Her p<a>^{air}rents would be so happy with her gift to them. Cl<air>[e] ask[e]d the l(a)dy selling her w<are>^{air}s, "How much for that p<air> of gold rings?" The lady st<are>^{air}d at Cl<air>[e]. "They are quite r<are>^{air}. So they are twenty doll<ar>s for the p<air>," decl<are>^{air}d the l(a)dy. She gl<are>^{air}d at the r<are>^{air} gold rings and Cl<air>[e] was aw<are>^{air} that she was not very happy. Then the l(a)dy said, "They are so he[a]vy they broke my ch<air>."
+
+Cl<air>[e] was aw<are>^{air} the rings would be he[a]vy, so she had come prep<are>^{air}d. She knew that she could c<a>^{ar}st a magic spell by rubbing them with her f<air>y h<air>. This would make them as light as air so they could float on their own. Cl<air>[e] fl(ew)^{oo} home p{u}^{oo}lling the p<air> of r<are>^{air} gold rings behind her. When she got there, she went upst<air>s. She placed the rings on her own ch<air> and ... crack! The magic spell she had c<a>^{ar}st was over. The p<air> of gold rings were now he[a]vy again and had broken her ch<air>.
+
+Cl<air>[e] did not desp<air>. She rep<air>[e]d the damag[e]d ch<air> and put the p<air> of gold rings back in their place on the ch<air>. Cl<air>[e], the f<air>ly large f<air>y with the magnificent p<air> of green wings, look[e]d happily at her ch<air> with the p<air> of gold rings and thought, "My p<a>^{air}rents will be so happy. This will make their day!"
+
+?qa What did Claire have on her back?
+= She had a pair of green wings.
+?qa How did Claire get to the fair?
+= She flew through the air.
+?qa Why did Claire want a pair of gold rings?
+= She wanted to give them to her parents as a gift.
+?qa Do you think that Claire was happy with the gold rings? Why / Why not?
+= Yes, because Claire knew her parents would be happy with them.
+
+## L21 | Diphthong /er/ · /f/
+focus: er, f
+words: f<er>n w[h]isp<er> work sk<i>^{er}rt nev<er> w<o>^{er}rld f<i>^{er}rst th<i>^{er}rd ans[w]<er> b<u>^{er}rn c<u>^{er}rv[e] t<u>^{er}rn <ea>^{er}rth ret<u>^{er}rn l<ea>^{er}rn h<ea>^{er}rd <ea>^{er}rn <ea>^{er}rly s<ea>^{er}rch s<u>^{er}rf{a}c^s[e] dist<u>^{er}rb girl broth<er> fath<er> sist<er> h<er> ov<er> und<er> tele[ph]^fone co[u][gh]^f [ph]^fot(o) ele[ph]^fants en[o]u[gh]^f laugh [ph]^fe[a]sant
+
+### Why W(e) Nev<er> See M<er>maids
+Est[h]<er> was a b[ea](u)tif{u}^{oo}l m<er>maid. She liv[e]d under the water in a w<or>^{er}ld that h(u)mans would be s{u}[r]prised to see. She liv[e]d there with her mother and father who were the king and queen of the under water w<or>^{er}ld.
+
+Est[h]<er> had h<ear>^{er}d the story of the w<or>^{er}ld above the s<ur>^{er}f{a}[c]^s[e] of the water. She would reg(u)l{a}^u[r]ly swim to the s<ur>^{er}f{a}[c]^s[e] and w[h]isp<er> to the <Ear>^{er}th Brothers to help her meet a s<u>^{er}rf{a}c^s[e] man so she could l<ea>^{er}rn all about their w<o>^{er}rld. Little did she know that her s<ea>^{er}rch was to end on this p<ar>tic(u)l{a}^u[r] day.
+
+It was the middl[e] of a hot day in the under water w<or>^{er}ld and Est[h]<er> swam happily s<ear>^{er}ching for p<ear>^{er}ls as a s{u}[r]pris[e] for her mother's b<ir>^{er}thday. As she rested on a large rock (i)[s]land, Est[h]<er> saw a str(a)ng[e] looking object approaching her on top of the water. She felt unc<er>t[a]in because she had never seen an object like it before. As the object gr(ew)^{oo} cl(o)s<er>, Est[h]<er> r(e)alised that it was a boat and that there was someone standing on top of the boat. The <Ear>^{er}th Brothers had h<ear>^{er}d her wish to meet a s<ur>^{er}f{a}[c]^s[e] man.
+
+The man told Est[h]<er> that he was a princ[e] from a f<ar>away w<or>^{er}ld and that he was s<ear>^{er}ching to find other w<or>^{er}lds. He wanted to l<ear>^{er}n all about Est[h]<er>'s w<or>^{er}ld too. He wanted Est[h]<er> to ret<ur>^{er}n with him to work in his w<or>^{er}ld. Est[h]<er> was ex[c](i)ted but knew that she could not liv[e] in a w<or>^{er}ld that was not under the water.
+
+When Est[h]<er> told the man this, he became angry and tr(i)[e]d to catch Est[h]<er> to take her with him. Est[h]<er> t<ur>^{er}n[e]d and dived back under the water to escape and to tell her father and the people of her w<or>^{er}ld about the princ[e].
+
+To this day, m<er>maids and the people of their w<or>^{er}ld keep watch for people from the w<or>^{er}ld above the water. They always ret<ur>^{er}n to the under water w<or>^{er}ld before they can be seen.
+
+?mc Esther's father was ___.
+- a prince
+* a king
+- an Earth Brother
+- a pirate
+?mc Esther had always wanted to meet a man from ___.
+* the surface world
+- space
+- the Earth Brothers
+- the moon
+?mc What did Esther want to find as a gift for her mum?
+- rocks
+* pearls
+- seaweed
+- a prince
+?mc The man on the boat said he was a ___.
+* prince
+- king
+- mermaid
+- pirate
+?mc According to the story, why are mermaids never seen?
+- They don't exist.
+- They are not real.
+* They hide to stay safe.
+- They want to catch people.
+
+### How the Ele[ph]^fant Got Its Trunk
+Once upon a time, in the days when ele[ph]^fants had only bumps for noses, there liv[e]d a young and inquisitiv[e] ele[ph]^fant girl. She liv[e]d with her family in the forest on the e[d]g[e] of the riv<er>. Like most inquisitiv[e] ele[ph]^fants, she asked many, many questions.
+
+"Mother, Father, Brother, Sist<er>," she would say, and she would ask any number of questions. Questions about why ele[ph]^fants laugh and why ele[ph]^fants co[u][gh]^f. Questions about [ph]^fantoms and [ph]^fe[a]sants.
+
+This day her question was about the crocodile's smile. "Mother, Father, Brother, Sist<er>," she began to ask, "why does the crocodile have such a big smile?" Like many of the questions they were ask[e]d, the little ele[ph]^fant girl's family did not have the ans[w]<er>. This time the little ele[ph]^fant girl decided to ask Crocodile herself. She did not know that Crocodile liked to eat little ele[ph]^fant girls.
+
+The little ele[ph]^fant girl m<ar>ch[e]d off to the riv<er> bank where Crocodile lay b<a>^{ar}sking in the sun. "Excuse me Crocodile," the little ele[ph]^fant girl politely ask[e]d. "Can you tell me why you have such a big smile?"
+
+"Why c<er>t[a]inly you may ask," repl(i)[e]d Crocodile. "I have d(i)[a]monds to use inste[a]d of teeth," the sly croc l(i)[e]d.
+
+"Oh! May I have a cl(o)s<er> look at your d(i)[a]mond teeth?" ask[e]d the little ele[ph]^fant girl, not sensing any d(a)ng<er>.
+
+"Why c<er>t[a]inly; come a little cl(o)s<er> and look at my teeth," said the cr<a>^{ar}fty old l(a)dy croc gl(i)ding into the water and swimming cl(o)s<er>.
+
+The little ele[ph]^fant girl moved cl(o)s<er> too, cl(o)s<er> and cl(o)s<er>, until her bump of a nose was right next to the croc's teeth. SNAP! The cr<a>^{ar}fty old croc bit her bump of a nose. The little ele[ph]^fant girl jump[e]d back. The cr<a>^{ar}fty old croc kept her hold on the little ele[ph]^fant girl's bump of a nose and p{u}^{oo}ll[e]d and p{u}^{oo}ll[e]d.
+
+The little ele[ph]^fant girl was so s{u}[r]prised that she p{u}^{oo}ll[e]d and p{u}^{oo}ll[e]d too, trying to make the cr<a>^{ar}fty old croc let go of her nose. As they both p{u}^{oo}ll[e]d and p{u}^{oo}ll[e]d, the little ele[ph]^fant girl's bump of a nose began to stre[t]ch and stre[t]ch until it was almost t[o]uching the <ear>^{er}th.
+
+Finally the cr<a>^{ar}fty old croc let go of the little ele[ph]^fant girl's nose and laugh[e]d at the long trunk that was now in the place where her little bump of a nose had once been. And that is why ele[ph]^fants no long<er> have a little bump for a nose and how the ele[ph]^fant got its trunk.
+
+?order The crocodile told the little elephant girl that she had diamonds instead of teeth. | 1
+?order The crafty old crocodile grabbed the little elephant girl's little bump of a nose. | 2
+?order The little elephant girl had a long trunk in the place where her little bump of a nose had once been. | 3
+
+## L22 | Diphthong /or/ · /zz/ · /sh/
+focus: or, zz, sh
+words: b<or>n c<or>d f<or>m m<or>ning sn<or>t gl<or>(i)^e[o]us f<ou>^{or}r <aw>^{or}[e]some l<aw>^{or}n f<aw>^{or}n y<aw>^{or}n sm<a>^{or}ll c<au>^{or}[gh]t vis^{zz}ion w<a>^{or}rm t<a>^{or}[l]k d<oo>^{or}r c<au>^{or}s[e] r<oa>^{or}r w<a>^{or}r tre[a]s^{zz}{u}r[e] inven[t]^{sh}ion m(o)[t]^{sh}ion poll(u)^{oo}[t]^{sh}ion st(a)[t]^{sh}ion televis^{zz}ion prec^{sh}[i]ous spec^{sh}[i]al
+
+### R<or>y McC<aw>^{or}
+R<or>y McC<aw>^{or} woke before d<aw>^{or}n and y<aw>^{or}n[e]d. He w<a>^{or}[l]k[e]d through the d<oor>^{or} and onto the p<or>ch. He look[e]d at the riv<er> and thought he would expl<or>[e] the water. It was a gl<or>(i)^e[o]us m<or>ning.
+
+He put on some sh<or>ts and a sh<ir>^{er}t and w<a>^{or}[l]k[e]d across the l<aw>^{or}n. He stepp[e]d into the little boat and unt(i)[e]d the c<or>d. He pick[e]d up the <oar>^{or}s and r(o)[w][e]d the boat as the sun started to w<ar>^{or}m the m<or>ning.
+
+He watch[e]d in <aw>^{or}[e] as a st<or>k s<oar>^{or}[e]d into the air. The crisp spring m<or>ning was ad<or>abl[e] with no poll(u)^{oo}[ti]^{sh}on in the air or in the water. R<or>y McC<aw>^{or} watch[e]d a st<or>m br(ew)^{oo}ing in the distanc[e], making incredibly c{o}^ul[o]{u}^{oo}[r]f{u}l shapes in the sky. Across on the other bank, a f<aw>^{or}n put its hoof in the water. It was sn<or>ting and looking at its reflec[ti]^{sh}on below.
+
+Looking into the water under the boat, R<or>y McC<aw>^{or} saw f<our>^{or} sm<a>^{or}ll pr<aw>^{or}ns swimming. He thought that it would have been good to have brought a net. He could have c<au>^{or}[gh]t some pr<aw>^{or}ns. But he had not brought a net so the pr<aw>^{or}ns swam away under his boat. As he lean[e]d over to watch the pr<aw>^{or}ns, he accidentally let go of the <oar>^{or}s. Then, as he put his hand into the water to grab them, his sh<ir>^{er}t c<au>^{or}[gh]t on a sm<a>^{or}ll nail. He lean[e]d back and his sh<ir>^{er}t t<or>[e]. R<or>y McC<aw>^{or} watch[e]d as the <oar>^{or}s floated away.
+
+R<or>y McC<aw>^{or} look[e]d to sh<or>[e]. He couldn't r(o)[w] so he would have to swim ash<or>[e]. As he jump[e]d over the e[d]g[e] of the boat, his sh<or>ts c<au>^{or}[gh]t on the same sm<a>^{or}ll nail and also t<or>[e].
+
+R<or>y McC<aw>^{or} finally reach[e]d the sh<or>[e]. He was wet. He had no <oar>^{or}s, no boat, no pr<aw>^{or}ns. His sh<ir>^{er}t and his sh<or>ts were t<or>n. R<or>y McC<aw>^{or} look[e]d back at the riv<er> and r(e)alised that he still m<ar>vell[e]d at the gl<or>(i)^e[o]us m<or>ning.
+
+?qa When did Rory McCaw wake?
+= He woke before dawn.
+?qa What did Rory McCaw look at from his porch?
+= He looked at the river.
+?qa What did Rory see brewing in the distance?
+= He saw a storm brewing.
+?qa Why did Rory think he should have taken a net?
+= If he had had a net, he could have caught some prawns.
+?qa Write about a time when you had a positive attitude like Rory. What happened? What did you do?
+= Any answer about staying positive when things went wrong.
+
+### A F<aw>^{or}n is B<or>n
+The f<aw>^{or}n was b<or>n early in the m<or>ning on a st<or>my Sunday. We c<a>^{or}ll[e]d him Sunny which my mother thought was str(a)ng[e]. He was an absol(u)^{oo}t[e] tre[a]s^{zz}{u}r[e] and we knew that the televi[si]^{zz}on rep<or>t<er>s would visit soon to take [ph]^f(o)t(o)s of his arr(i)val: we had manag[e]d to keep him alive with a spe[ci]^{sh}al ma[ch]^{sh}(i)^en[e] that had c<au>^{or}[gh]t the rep<or>t<er>s' atten[ti]^{sh}on.
+
+When the vet arrived, he t<or>[e] up some clean old rags to wipe the newly born f<aw>^{or}n we c<a>^{or}ll[e]d Sunny. He made [s]^{sh}<ur>^{or}[e] his p(a)[ti]^{sh}ent was he[a]lthy and strong. The vet t<a>^{or}[l]k[e]d with Dad for a while and then told him that Sunny was in fine f<or>m. He was happy for the rep<or>t<er>s to v[i](ew)^u our pre[ci]^{sh}[o]us little tre[a][s]^{zz}{u}[re].
+
+Dad w<ar>^{or}n[e]d us to keep Sunny w<ar>^{or}m and keep the d<oor>^{or} of the b<ar>n cl(o)s[e]d. When the rep<or>t<er>s arrived they set up a p<or>tabl[e] ma[ch]^{sh}(i)^en[e] to send the vi[si]^{zz}on of our newly b<or>n f<aw>^{or}n to the rest of the w<or>^{er}ld.
+
+The rep<or>t<er>s int<er>v[i](ew)^u[e]d Dad about his inven[ti]^{sh}on that had kept the young f<aw>^{or}n alive. We all watch[e]d the televi[si]^{zz}on that night to see the rep<or>t on Sunny. It was very ex[c](i)ting to see all of our family on televi[si]^{zz}on and Dad's int<er>v[i](ew)^u with the rep<or>t<er>s. Sunny became an instant celebrity with everyone in the city.
+
+When we woke the next m<or>ning, Sunny was alre[a]dy standing and had help[e]d himself to some of the food we had left out. It wasn't long before Sunny gr(ew)^{oo} into a stag and we had to let him go back into the w(i)ld.
+
+Again the rep<or>t<er>s came to televise the releas[e] of our pre[ci]^{sh}[o]us Sunny. He had become such a celebrity that the v[i](ew)^u<er>s wanted to know all about his pr(o)gress.
+
+The day we releas[e]d Sunny into the w(i)ld, Mum and I watch[e]d as he raced t(o)^{oo}w<ar>^{or}ds the open f[i](e)ld. We were sad to see him go but happy that he was alive and strong. Suddenly, Sunny t<ur>^{er}n[e]d and m(o)[ti]^{sh}on[e]d t(o)^{oo}w<ar>^{or}ds us. It was like he was saying "Thanks!" I m(o)[ti]^{sh}on[e]d back to Sunny and within an instant he was gone, back into the w(i)ld where he belong[e]d.
+
+?order The reporters interviewed Dad about the invention that kept the newly born fawn alive. | 1
+?order It wasn't long before Sunny grew into a stag. | 2
+?order Sunny raced towards the open field after we released him. | 3
+
+## L23 | Diphthong /ow/
+focus: ow
+words: <ow>l b<ou>^{ow}[gh] m<ou>^{ow}nd d<i>^{er}rt cl<ou>^{ow}ds f<ou>^{ow}nd h<ow>l h<ow>ls h<ow>l[e]d h<ow>ling b<ou>^{ow}nding b<ou>^{ow}nd l<ou>^{ow}dly
+
+### The M<ou>^{ow}s[e], the C<ow> and the <Ow>l
+The large br<ow>n c<ow> ch(ew)^{oo}[e]d merrily on the gr<a>^{ar}ssy gr<ou>^{ow}nd. She f<ou>^{ow}nd the s<ou>^{ow}nd of the <ow>l hooting quite dist<ur>^{er}bing. <Ow>l was sitting on the b<ou>^{ow}[gh] where he always sat, watching the paddock looking for bre[a]kfast.
+
+"Why are you m(a)king such a fuss?" ask[e]d the large br<ow>n c<ow>.
+
+"It is Mother M<ou>^{ow}s[e]," repl(i)[e]d the <ow>l from the b<ou>^{ow}[gh] of the tree. "She is h(i)ding under some logs on the gr<ou>^{ow}nd. I want her to think she is s{u}rr<ou>^{ow}nded so I can catch her for my bre[a]kfast."
+
+The large br<ow>n c<ow> could see p<oor>^{or} Mother M<ou>^{ow}s[e] h(i)ding under some logs on the gr<ou>^{ow}nd. She was not worr(i)^e[e]d about the m<ou>^{ow}s[e] but f<ou>^{ow}nd the hooting <ow>l's l<ou>^{ow}d s<ou>^{ow}nd dist<ur>^{er}b[e]d her own bre[a]kfast. She fr<ow>n[e]d. "<Ow>l!" she call[e]d. "This m<ou>^{ow}s[e] is my friend. I want you to leave her alone and find some other m<ou>^{ow}s[e] to eat for bre[a]kfast."
+
+The <ow>l knew that the m<ou>^{ow}s[e] was not the large br<ow>n c<ow>'s friend, but knew also that the c<ow> would be in the way if he tr(i)[e]d to swoop down to the gr<ou>^{ow}nd where the m<ou>^{ow}s[e] hid. "Very well," said the <ow>l, "I'll leave your friend alone."
+
+Mother M<ou>^{ow}s[e] scamp<er>[e]d out from under the logs on the gr<ou>^{ow}nd to the safety of the fenc[e]. She thank[e]d the large br<ow>n c<ow>, "You are very kind C<ow>. I will one day ret<ur>^{er}n your f(a)v<our>^{er}." The large br<ow>n c<ow> look[e]d down at the t(i)ny m<ou>^{ow}s[e] and laugh[e]d, "I think you are f<ar> too small to ever be (a)bl[e] to help me," she repl(i)[e]d and went back to her m<ou>^{ow}nd of deli[ci]^{sh}[o]us gr<a>^{ar}ss.
+
+It was many m{o}^unths later when Mother M<ou>^{ow}s[e] heard l<ou>^{ow}d s<ou>^{ow}nds c{o}^uming from the c<ow>'s paddock. A h<ou>^{ow}nd had chased the large br<ow>n c<ow> and she had f<ou>^{ow}nd herself trapp[e]d with some sh<ar>p vines [w]rapp[e]d ar<ou>^{ow}nd her hoof. The more the large br<ow>n c<ow> p{u}^{oo}ll[e]d to escape the vines, the t(i)[gh]ter they [w]rapp[e]d ar<ou>^{ow}nd her hoof. Mother M<ou>^{ow}s[e] recognised the large br<ow>n c<ow> imm(e)d(i)^eat[e]ly and raced across the paddock to where the c<ow> was trapp[e]d.
+
+She knew that running in the open was d(a)ng<er>[o]us because <ow>l as always, was sitting on his b<ou>^{ow}[gh] watching the paddock.
+
+When she finally reach[e]d her, the large br<ow>n c<ow> said, "Mother M<ou>^{ow}s[e] you are very brave to run across the open paddock when <ow>l is sitting on his b<ou>^{ow}[gh] watching. I think though, that your br(a)v<er>y is w(a)sted when even I cannot br[e](a)k these vines." Mother M<ou>^{ow}s[e] w(a)sted no time and began (u)sing her sh<ar>p teeth to ch(ew)^{oo} away at the vines. Before long, the large br<ow>n c<ow> was free.
+
+Mother M<ou>^{ow}s[e] look[e]d at the large br<ow>n c<ow> and said, "I am pleas[e]d to be (a)bl[e] to ret<ur>^{er}n the f(a)v<our>^{er}." From that day on, Mother M<ou>^{ow}s[e] never had to w{o}^urry about <ow>l sitting on his b<ou>^{ow}[gh] overlooking the paddock as her friend C<ow> was always there to pr(o)tect her.
+
+?order A hound chased the large brown cow. | 1
+?order Mother Mouse raced across the paddock to where the large brown cow was trapped. | 2
+?order Mother Mouse was pleased to have returned the favour to the large brown cow. | 3
+?tf The cow was disturbed by the owl's loud sound. | T
+?tf Mother Mouse hid under the ground. | F
+?tf In the beginning of the story, the cow and owl were friends. | F
+?tf Owl managed to catch Mother Mouse. | F
+?tf At the end of the story, the owl and the cow were good friends. | F
+
+### The Conf<ou>^{ow}nding Predicament
+The s<ow> heard a str(a)ng[e] s<ou>^{ow}nd c{o}^uming from the paddock.
+
+"Oh my!" said the s<ow>. "That s<ou>^{ow}nd is b<ou>^{ow}nd to keep me awake all night. I will have to see what is m(a)king that terribl[e] racket."
+
+The s<ow> walk[e]d ar<ou>^{ow}nd the side of the b<ar>n and f<ou>^{ow}nd the c<ow> l(y)^iing on the gr<ou>^{ow}nd. She was h<ow>ling and fr<ow>ning and m(a)king a terribl[e] fuss.
+
+"Oh my!" said the s<ow>. "This s<ou>^{ow}nd is b<ou>^{ow}nd to keep me awake all night. I will have to see what I can do to help the c<ow> and stop her terribl[e] racket." The s<ow> walk[e]d past the b<ar>n to where the c<ow> was l(y)^iing on the gr<ou>^{ow}nd. "What on earth is the matt<er> C<ow>? You are m(a)king the most terribl[e] s<ou>^{ow}nd."
+
+The c<ow> stopp[e]d h<ow>ling and t<ur>^{er}n[e]d ar<ou>^{ow}nd. "Oh me! Oh my!" she said with a fr<ow>n. "No matt<er> how much I try and try, I simply cannot go to sleep. I have been l(y)^iing here, c<ou>^{ow}nting the cl<ou>^{ow}ds for hours but simply cannot go to sleep. What am I to do?"
+
+The s<ow> was puzzl[e]d. She had never had tr[o]ubl[e] f<a>^{or}lling asleep. Her sty was always the p<er>fect h<ou>^{ow}s[e] for sleeping. She f<ou>^{ow}nd the c<ow>'s predicament r<a>^{ar}th<er> conf<ou>^{ow}nding. "If I do not help the c<ow> find a sol(u)^{oo}[ti]^{sh}on," thought the s<ow>, "I may well find myself with the same problem. This l<ou>^{ow}d s<ou>^{ow}nd is b<ou>^{ow}nd to keep me awake all night!"
+
+Finally, the s<ow> su[g]gested to the c<ow>, "How about I tell you a story? That is b<ou>^{ow}nd to help you f<a>^{or}ll asleep. It is what my mother used to do when I was a little piglet. I will tell you one of my mother's st<or>(i)^e[e]s."
+
+The c<ow> was not lis[t]ening. Now, she was looking into the paddock and c<ou>^{ow}nting fl<ow><er>s to try to f<a>^{or}ll asleep. "Oh me! Oh my!" she said with a daisy in her m<ou>^{ow}th. "I have been c<ou>^{ow}nting fl<ow><er>s for hours but simply cannot go to sleep. What am I to do?"
+
+But now the s<ow> had a new problem. She could not think of a story to tell the c<ow>. It had been a long time sinc[e] her mother had told her any st<or>(i)^e[e]s and now she could not rememb<er> one. She f<ou>^{ow}nd her predicament r<a>^{ar}th<er> conf<ou>^{ow}nding. "If I do not tell the c<ow> a story," thought the s<ow>, "she will not f<a>^{or}ll asleep and I may well find myself with the same problem. This l<ou>^{ow}d s<ou>^{ow}nd is b<ou>^{ow}nd to keep me awake all night!"
+
+The s<ow> work[e]d hard to rememb<er> a story that her mother had told her when she was just a little piglet. Then, as she was about to give up hope of rememb<er>ing a story, the s<ow> rec<a>^{or}ll[e]d a spe[ci]^{sh}al story about a sp(i)d<er> call[e]d [Ch]^{sh}<ar>lott[e] and a pig call[e]d Wilb<ur>^{er} who liv[e]d together in a b<ar>n.
+
+When the s<ow> t<ur>^{er}n[e]d to tell the c<ow> her story, she r(e)alised that the l<ou>^{ow}d s<ou>^{ow}nd c{o}^uming from the c<ow> had stopp[e]d. The s<ow> look[e]d down to see that the c<ow> was sleeping s<ou>^{ow}ndly.
+
+"Ah!" said the s<ow> pr<ou>^{ow}dly. "Now I will sleep s<ou>^{ow}ndly too." She trotted happily back ar<ou>^{ow}nd the b<ar>n to her sty and said, "The end!"
+
+And they both slept ... happily ever after.
+
+## L24 | Diphthong /oy/
+focus: oy
+words: p<oi>^{oy}son sp<oi>^{oy}lt v<oy>ag[e] t<oy> c<oi>^{oy}n p<oi>^{oy}nt p<oi>^{oy}nts p<oi>^{oy}nted p<oi>^{oy}nting l<ou>^{ow}d n<oi>^{oy}s[e] v<oi>^{oy}c[e]
+
+### The Sp<oi>^{oy}lt B<oy>
+The sp<oi>^{oy}lt boy tr(i)[e]d every pl<oy> in <or>d<er> to ann<oy> his mother at the toy shop. He was very n<oi>^{oy}sy as he p<oi>^{oy}nted to the toy that he wanted. His mother was disapp<oi>^{oy}nted by his b<oi>^{oy}st[e]r[o]us tantrum and tr(i)[e]d to av<oi>^{oy}d an <ar>g(u)ment with him. In a qu(i)et v<oi>^{oy}c[e], she told him that she did not have enough c<oi>^{oy}ns to buy the toy for him.
+
+The sp<oi>^{oy}lt boy stamp[e]d his feet on the toy shop's fl<oor>^{or}. He p<oi>^{oy}nted to the toy he wanted and made the most dre[a]df{u}^{oo}l n<oi>^{oy}s[e]. "Give me the toy or I will sp<oi>^{oy}l your enj<oy>ment!" he scream[e]d at the top of his v<oi>^{oy}c[e]. His mother was disapp<oi>^{oy}nted by his b<oi>^{oy}st[e]r[o]us tantrum and still tr(i)[e]d to av<oi>^{oy}d an <ar>g(u)ment. "Stop being a n<au>^{or}[gh]ty boy and I may buy you the toy," she spoke gently.
+
+The sp<oi>^{oy}lt boy flung himself on the fl<oor>^{or}. He p<oi>^{oy}nted at the toy he wanted and contin(u)[e]d to make the most dre[a]df{u}^{oo}l n<oi>^{oy}s[e]. "I want that toy!" he yell[e]d at the top of his v<oi>^{oy}c[e]. His mother was now getting ann<oy>[e]d with his b<oi>^{oy}st[e]r[o]us tantrum. Again she tr(i)[e]d to av<oi>^{oy}d an <ar>g(u)ment. This time she spoke in a f<ir>^{er}m v<oi>^{oy}c[e], "Stop your n<au>^{or}[gh]ty tantrum!" she commanded. "I am getting very ann<oy>[e]d!"
+
+The sp<oi>^{oy}lt boy thought he was winning. His mum was getting ann<oy>[e]d and embarrass[e]d. He did not c<are>^{air}. He thought he would soon win and she would buy him the toy. The sp<oi>^{oy}lt boy used his l<ou>^{ow}dest v<oi>^{oy}c[e] and p<oi>^{oy}nted at the toy on the shelf. "Give me that toy! I want that toy!" he contin(u)[e]d to sh<ou>^{ow}t.
+
+The boy did not know that the st<or>[e] manag<er> was standing behind him. The st<or>[e] manag<er> used a soft and kind v<oi>^{oy}c[e]. She pick[e]d the boy up from the fl<oor>^{or} and gently carr(i)^e[e]d him to the entranc[e] of the st<or>[e]. The boy's mum foll(o)[w][e]d the st<or>[e] manag<er>.
+
+The st<or>[e] manag<er> carr(i)^e[e]d the sp<oi>^{oy}lt b<oy> out of the st<or>[e] and gently plac[e]d him on to the footp<a>^{ar}th in fr{o}^unt of the shop. "We do not all<ow> sp<oi>^{oy}lt children in our toy shop," she said qu(i)etly. "I'm afraid you will both have to leave." With that, the st<or>[e] manag<er> ret<ur>^{er}n[e]d to her shop and the sp<oi>^{oy}lt boy and his mum were left on the footp<a>^{ar}th.
+
+The sp<oi>^{oy}lt boy and his mum both quickly walk[e]d away.
+
+The sp<oi>^{oy}lt boy did not get the toy.
+
+?order The spoilt boy thought he was close to getting his mum to buy him the toy. | 1
+?order The store manager told the spoilt boy and his mum that they were not allowed in the shop. | 2
+?order The spoilt boy found himself sitting on the footpath outside the toy shop. | 3
+?tf The spoilt boy's mum was very annoyed with him. | F
+?tf The spoilt boy was trying to make his mum buy him a toy. | T
+?tf The store manager spoke to the spoilt boy and his mum in an angry voice. | F
+?tf The spoilt boy and his mum came back into the shop at the end of the story. | F
+?qa Do you think that the store manager did the right thing? Why / Why not?
+= Any reasoned answer, e.g. Yes, because the boy was being naughty and upsetting other people in the shop.
+
+### Camping at <Oy>st<er> P<oi>^{oy}nt
+Tr<oy> and his friends, Jeff and L(e)r<oy>, had decided to camp overnight on the S<ou>^{ow}th P<oi>^{oy}nt of <Oy>st<er> (I)[s]land. They had camp[e]d there many times before with their famil(i)^e[e]s but this time they were going to enj<oy> the fun of camping out, on their own. They were all very ex[c](i)ted. They c<au>^{or}[gh]t the ferry to the (i)[s]land after L(e)r<oy>'s dad drove them to the N<or>th P<oi>^{oy}nt Ferry T<er>minal.
+
+The v<oy>ag[e] took only an hour and before the boys knew it, they were enj<oy>ing swimming in the water and cl(i)m[b]ing over the rocks of the (i)[s]land's S<ou>^{ow}th P<oi>^{oy}nt. L(e)r<oy> f<ou>^{ow}nd some <oy>st<er>s stuck to the rocks glis[t]ening in the water and Tr<oy> used a [k]nife to open them. They all sat in the hot midday sun and ate the deli[ci]^{sh}[o]us <oy>st<er>s. "This is why it's called <Oy>st<er> P<oi>^{oy}nt," said L(e)r<oy>. The day was p<er>fect.
+
+Tr<oy> and his friends made their way back to where they had set up their campsite and collected wood to start a fire. They used the fire to b<oi>^{oy}l water for tea. To cook their pot(a)t(o)[e]s they [w]rapp[e]d them in f<oi>^{oy}l and thr(ew)^{oo} them into the hot coals. Then, when they had eaten their fill, Jeff watch[e]d L(e)r<oy> and Tr<oy> toast m<ar>shmall(o)[w]s over the fire on the end of a stick. It was a p<er>fect camping expedi[ti]^{sh}on.
+
+Later that night, Tr<oy> woke in his tent to v<oi>^{oy}ces he heard outside. He was s{u}[r]prised to find that the others were awake and that Jeff was very sick. "I think the <oy>st<er>s were p<oi>^{oy}son[o]us," said Jeff. "I feel very sick." The boys were conc<er>n[e]d because <Oy>st<er> P<oi>^{oy}nt was a long way from other people. "What will we do?" asked L(e)r<oy>. "Jeff is very hot with a f(e)v<er>. I think he needs to see a doct<or>."
+
+The boys knew that they would have to wait until the morning. They were dec(i)ding their next move when Jeff heard a n<oi>^{oy}s[e] in the b{u}^{oo}sh and then they all heard a v<oi>^{oy}c[e] say, "Has someone eaten p<oi>^{oy}son[o]us <oy>st<er>s?" It was the r(a)ng<er>. Tr<oy>'s dad had ask[e]d the r(a)ng<er> to keep an eye on the boys.
+
+"We are worr(i)^e[e]d that Jeff has eaten p<oi>^{oy}son[o]us <oy>st<er>s," the boys said to the r(a)ng<er>.
+
+"Did you all eat <oy>st<er>s from the rocks?" the r(a)ng<er> ask[e]d. The boys nodded, "Yes!"
+
+"I think that Jeff may be suff<er>ing from a sl(i)[gh]t case of heat stroke," said the r(a)ng<er>. "It was very hot today and I think you would all be sick if the <oy>st<er>s were p<oi>^{oy}son[o]us. Did you use sunscreen all day, Jeff?"
+
+Jeff looked s{u}[r]prised. He had not used sunscreen as he knew he should have. "I'm [s]^{sh}<ur>^{or}[e] you'll be fine in the morning," said the r(a)ng<er>, "but you need to drink lots of water in the meantime."
+
+The foll(o)[w]ing day, Jeff was feeling much bett<er>. The boys swam in the water and enj<oy>[e]d the beach. They even ate some more <oy>st<er>s: they knew they weren't p<oi>^{oy}son[o]us. And they all used plenty of sunscreen to pr(o)tect themselv[e]s from the hot sun.
+
+Camping at S<ou>^{ow}th P<oi>^{oy}nt on <Oy>st<er> (I)[s]land would become a reg(u)l{a}^u[r] event.
+
+?bank knife, oysters, morning, beach, heat, noise, voyage, poisonous, potatoes, water, protect, fire, overnight, voices, fever
+?cloze Troy and his friends had decided to camp on Oyster Island ___. | overnight
+?cloze The ___ on the ferry took only an hour. | voyage
+?cloze Leroy found some ___ stuck to the rocks. The boys used a ___ to open them. | oysters, knife
+?cloze They collected wood to start a ___. They used the fire to boil water for tea and cook ___ wrapped in foil. | fire, potatoes
+?cloze Troy was woken later in the night by ___ outside his tent. | voices
+?cloze The boys thought that Jeff had eaten some ___ oysters. Jeff was very hot and had a ___. | poisonous, fever
+?cloze The ___ Jeff heard in the bush came from the ranger. | noise
+?cloze The ranger suspected that Jeff had ___ stroke because he hadn't used any sunscreen during the day. | heat
+?cloze Jeff would be fine in the ___ but would need to drink a lot of ___ in the meantime. | morning, water
+?cloze The next day, Jeff felt much better and the boys enjoyed the ___. They also used sunscreen to ___ themselves from the hot sun. | beach, protect

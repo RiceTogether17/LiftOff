@@ -1,0 +1,288 @@
+# WB1 | Workbook 1 | Short Vowels
+
+## L1 | Short vowel /a/
+focus: a
+words: {a}s {a}t {a}n {a}m h{a}d sw{a}m s{a}nd D{a}n s{a}t d{a}mp Br{a}d cl{a}p {a}nd h{a}s th{a}t
+
+### D{a}n {a}nd Br{a}d
+D{a}n {a}nd Br{a}d gr{a}b h{a}nds then cl{a}p. D{a}n was a m{a}n {a}nd he s{a}ng. Br{a}d was a l{a}d {a}nd he s{a}ng too. D{a}n s{a}t on the s{a}nd th{a}t was d{a}mp. Br{a}d, the l{a}d, h{a}d a spl{a}sh in the d{a}m. Then D{a}n {a}nd Br{a}d sw{a}m in the d{a}m {a}nd s{a}t on the s{a}nd again {a}nd again. Br{a}d {a}nd D{a}n s{a}ng again too. Br{a}d {a}nd D{a}n sw{a}m, s{a}t {a}nd s{a}ng all day. Over {a}nd over Br{a}d {a}nd D{a}n sw{a}m, then s{a}t, then s{a}ng.
+
+Then, when the day was over, D{a}n the m{a}n h{a}d a n{a}p.
+
+?mc Whom is this story about?
+- Brad
+- Gran
+* Brad and Dan
+- Dan
+?mc What did Dan do on the sand?
+- swam
+- had a splash
+- sang
+* sat
+
+## L2 | Short vowel /a/ · silent letters
+focus: a
+words: dr{a}g dr{a}gs dr{a}gg[e]d gr{a}b gr{a}bs gr{a}bb[e]d fl{a}p fl{a}ps fl{a}pp[e]d n{a}p n{a}pp[e]d c{a}tn{a}p c{a}tn{a}pp[e]d h{a}ve scr{a}[t]ch tr{a}[c]k cl{a}ps cr{a}sh str{a}p cl{a}pp[e]d ch{a}p str{a}pp[e]d l{a}p p{a}[c]k scr{a}mm[e]d p{a}[t]ch gl{a}d fl{a}t J{a}[c]k l{a}nd l{a}nd[e]d bl{a}[c]k st{a}nd {a}x[e] scr{a}[t]ch[e]d p{a}[c]k[e]d p{a}[t]ch[e]d cr{a}sh[e]d l{a}m[b] {a}pp[l][e]
+
+### J{a}n's C{a}tn{a}p
+Gr{a}n {a}nd her white pr{a}m s{a}t on the s{a}nd. J{a}n was in the white pr{a}m on the s{a}nd. J{a}n was about to c{a}tn{a}p in the pr{a}m. Gr{a}n s{a}ng to J{a}n in her white pr{a}m {a}s she was about to c{a}tn{a}p.
+
+Then, {a}s Gr{a}n s{a}ng to J{a}n in her white pr{a}m, J{a}n h{a}d a c{a}tn{a}p. Gr{a}n was gl{a}d th{a}t J{a}n was in her white pr{a}m {a}s she h{a}d her c{a}tn{a}p.
+
+?mc Gran and her ___ were on the sand.
+- fan
+* white pram
+- sang
+- catnap
+?mc Jan was ___ the white pram.
+- on
+- about
+- at
+* in
+
+### P{a}t H{a}s a C{a}t
+A m{a}n's name is P{a}t. P{a}t h{a}s a c{a}t {a}nd a l{a}m[b]. The c{a}t's name is Spl{a}tm{a}n. Spl{a}tm{a}n the c{a}t h{a}s a m{a}t. His m{a}t is p{a}[t]ch[e]d. Spl{a}tm{a}n the c{a}t gr{a}bs his m{a}t {a}nd dr{a}gs it to the v{a}n.
+
+P{a}t cl{a}ps {a}nd Spl{a}tm{a}n the c{a}t is gl{a}d.
+
+P{a}t h{a}s a m{a}t for his l{a}m[b] too. The l{a}m[b]'s m{a}t is bl{a}[c]k {a}nd white. The l{a}m[b] gr{a}bs the m{a}t {a}nd dr{a}gs the m{a}t to the v{a}n.
+
+P{a}t cl{a}ps again {a}nd the l{a}m[b] h{a}s {a}n {a}p[p]l[e].
+
+P{a}t, Spl{a}tm{a}n {a}nd the l{a}m[b] are gl{a}d.
+
+?mc What is the name of the man in this story?
+- Splatman
+- Pam
+* Pat
+- Pad
+?mc What is Pat's cat's name?
+* Splatman
+- Pam
+- Pat
+- Pad
+
+## L3 | Short vowel /e/ · past tense with -ed
+focus: e
+words: {e}nd m{e}t w{e}nt r{e}st sp{e}l[l] h{e}lp b{e}l[l] fr[i]{e}nd l{e}ft s{e}v{e}n fl{e}d f{e}lt b{e}nd pr{e}s{e}nt n{e}xt f{e}l[l] h{e}ld {e}nd{e}d b{e}st l{e}t's f{e}[t]ch f{e}[t]ch{e}d w{e}pt s{e}l{e}ct s{e}l{e}cts s{e}l{e}ct{e}d dr{e}[a]mt sl{e}pt h{e}[a]d m{e}nd br{e}[a]d sp{e}d
+
+### T{e}d {a}nd B{e}s[s]
+T{e}d want{e}d to f{e}[t]ch some br{e}[a]d for B{e}s[s]. He sp{e}d to g{e}t the br{e}[a]d {a}nd then he sp{e}d b{a}[c]k to his fl{a}t. Then he w{e}nt to b{e}d {a}nd sl{e}pt.
+
+He dr{e}[a]mt about B{e}s[s].
+
+B{e}s[s] m{e}nd{e}d her white dr{e}s[s] {a}nd f{e}l[l] into b{e}d. She also dr{e}[a]mt about T{e}d.
+
+The n{e}xt day T{e}d {a}nd B{e}s[s] w{e}d. The b{e}l[l]s r{a}ng. Their d{a}ds f{e}lt gl{a}d {a}nd w{e}pt.
+
+T{e}d's b{e}st fr[i]{e}nd s{e}l{e}ct{e}d a r{e}d ch{e}st {a}s a pr{e}s{e}nt for T{e}d {a}nd B{e}s[s].
+
+?qa What was it Bess mended?
+= Bess mended her white dress.
+?qa What present was selected for them by Ted's best friend?
+= Ted's best friend selected a red chest.
+
+### L{e}t's H{e}lp Br{e}nd{a}n's D{a}d
+S{e}v{e}n fr[i]{e}nds h{a}d m{e}t n{e}xt to the sh{e}d. "L{e}t's h{e}lp Br{e}nd{a}n's d{a}d g{e}t t{e}n r{e}d h{e}ns," said Br{e}nd{a}n's b{e}st fr[i]{e}nd B{e}th. The s{e}v{e}n fr[i]{e}nds said, "Y{e}s!" B{e}th {a}nd Br{e}nd{a}n gr{a}b[b][e]d h{a}nds.
+
+The r{e}st of the fr[i]{e}nds st{e}p[p][e]d b{a}[c]k. B{e}th {a}nd Br{e}nd{a}n s{e}l{e}ct{e}d a sp{e}l[l]. Then B{e}th {a}nd Br{e}nd{a}n said the sp{e}l[l]!
+
+A bl{a}[c]k {a}nd r{e}d fl{a}sh cr{a}[c]k[e]d. Then a n{e}st, a [w]r{e}n {a}nd {a}n {e}g[g] l{a}nd{e}d n{e}xt to th{e}m. The [w]r{e}n said, "T{e}n r{e}d h{e}ns are in the sh{e}d." Then the n{e}st, {e}g[g] {a}nd [w]r{e}n w{e}nt.
+
+B{e}th {a}nd Br{e}nd{a}n {a}nd the fr[i]{e}nds w{e}nt to the sh{e}d {a}s the [w]r{e}n h{a}d said. In the sh{e}d, t{e}n r{e}d h{e}ns s{a}t on t{e}n white {e}g[g]s.
+
+Br{e}nd{a}n's d{a}d h{a}d want{e}d h{e}ns {a}nd {e}g[g]s. The s{e}v{e}n fr[i]{e}nds f{e}lt gl{a}d to h{a}v[e] h{e}lp[e]d Br{e}nd{a}n's d{a}d g{e}t his t{e}n r{e}d h{e}ns {a}nd t{e}n {e}g[g]s.
+
+?mc How many friends met next to the shed?
+* seven
+- ten
+- one
+- eleven
+?mc What happened when Beth and Brendan selected the spell?
+- The friends fled.
+- There was a flash.
+- The friends slept.
+* Beth and Brendan then said the spell.
+?mc The ten hens sat ___.
+- next to the shed
+- above the shed
+* on the ten eggs
+- on the shed
+
+## L4 | Short vowel /i/
+focus: i
+words: th{i}n n{i}b[b]l[e]d r{i}p w{i}th v{a}n{i}sh[e]d d{i}d s{i}[c]k r{i}ng s{i}x {i}ncr{e}d{i}bl[e] s{i}t v{a}n{i}sh sh{i}ft br{i}[c]k bl{i}nk{i}ng br{i}t[t]l[e] sl{i}d dr{i}nk bl{i}nk fl{a}sh{i}ng th{i}ng st{i}l[l] st{i}[t]ch h{i}l[l] f{a}nt{a}st{i}c dr{i}nks str{i}ng m{i}ss{i}ng l{i}v[e]d dr{i}nk{i}ng
+
+### The {I}ncr{e}d{i}bl[e] R{i}ng
+A l{i}t[t]l[e], th{i}n m{a}n l{i}v[e]d in a l{i}t[t]l[e], br{i}[c]k fl{a}t on a l{i}t[t]l[e], white s{a}nd h{i}l[l] w{i}th many sh{e}l[l]s. One day in his fl{a}t, the l{i}t[t]l[e], th{i}n m{a}n saw a br{i}t[t]l[e] br{i}[c]k. He p{i}[c]k[e]d {a}t the br{i}t[t]l[e] br{i}[c]k in his fl{a}t. The br{i}t[t]l[e] br{i}[c]k cr{a}[c]k[e]d {a}nd he saw a f{a}nt{a}st{i}c th{i}ng.
+
+It was {a}n {i}ncr{e}d{i}bl[e] r{i}ng!
+
+The l{i}t[t]l[e], th{i}n m{a}n sl{i}d his l{i}t[t]l[e], th{i}n h{a}nd into the cr{a}[c]k {a}nd l{i}ft{e}d the r{i}ng tr{a}p[p][e]d in the br{i}[c]ks. The l{i}t[t]l[e], th{i}n m{a}n s{a}t {a}nd h{e}ld the r{i}ng in his l{i}t[t]l[e], th{i}n h{a}nd.
+
+The r{i}ng h{a}d a d{e}nt in it. The r{i}ng was st{i}l[l] {i}ncr{e}d{i}bl[e].
+
+The l{i}t[t]l[e], th{i}n m{a}n b{e}nt the r{i}ng {a}nd it sn{a}p[p][e]d in his l{i}t[t]l[e], th{i}n h{a}nds. In a fl{a}sh, the l{i}t[t]l[e], th{i}n m{a}n {a}nd the r{i}ng v{a}n{i}sh[e]d.
+
+?qa In what did the little thin man live?
+= The little thin man lived in a little, brick flat.
+?qa What happened to the little thin man?
+= He vanished (after the ring snapped).
+
+### The S{i}x P{i}nk P{i}gs
+The s{i}x p{i}nk p{i}gs l{i}v[e]d on a b{i}g h{i}l[l]. The s{i}x p{i}nk p{i}gs g{i}g[g]l[e]d {a}s they n{i}b[b]l[e]d the ch{i}ps the w{i}[t]ch h{a}d in her b{i}n. The w{i}[t]ch h{a}d l{e}ft the ch{i}ps for some {i}ns{e}cts. The s{i}x p{i}nk p{i}gs sh{i}ft{e}d the l{i}d of the b{i}n into a d{i}[t]ch {a}nd s{e}l{e}ct{e}d the b{e}st ch{i}ps to n{i}b[b]l[e]. The w{i}[t]ch saw the s{i}x p{i}nk p{i}gs n{i}b[b]l{i}ng the ch{i}ps she h{a}d l{e}ft for the {i}ns{e}cts.
+
+The w{i}[t]ch g{i}g[g]l[e]d {a}s she gr{a}b[b][e]d her b{i}g st{i}[c]k. In {a}n {i}nst{a}nt, one p{i}nk p{i}g was l{i}ft{e}d above the b{i}n w{i}th the ch{i}ps. It was {i}ncr{e}d{i}bl[e]. The l{i}d of the b{i}n th{a}t was in the d{i}[t]ch was l{i}ft{e}d too. The w{i}[t]ch g{i}g[g]l[e]d again. The p{i}nk p{i}g above the b{i}n l{a}nd{e}d w{i}th a cr{a}sh into the b{i}n w{i}th the ch{i}ps.
+
+Then there was a b{i}g b{a}ng {a}s the l{i}d l{a}nd{e}d on the p{i}nk p{i}g in the b{i}n. The r{e}st of the p{i}nk p{i}gs {i}nsp{e}ct{e}d the w{i}[t]ch {a}s she g{i}g[g]l[e]d {a}nd g{i}g[g]l[e]d. Then, the r{e}st of the p{i}nk p{i}gs g{i}g[g]l[e]d too.
+
+?mc Where did the six pink pigs live?
+- next to the ditch
+- next to a big hill
+- in the bin
+* on a big hill
+?mc What did the witch do as she grabbed her big stick?
+- nibbled
+- crashed
+- lifted the bin
+* giggled
+?mc One pink pig was lifted ___.
+- next to the shed
+- above the lid
+* above the bin
+- next to the bin
+
+## L5 | Short vowel /o/ · letters representing different sounds
+focus: o
+words: l{o}ng s{o}ng l{o}st al{o}ng ch{o}mp ch{o}mp{i}ng J{o}sh h{o}t B{o}b fr{o}m b{o}x w{a}^o[t]ch w{a}^o[t]ch[e]d Sp{o}t T{o}m y{a}^o[ch]t s{a}^olt f{o}g ch{o}p ch{o}ps c{a}r[r]{o}t fr{o}g p{o}t p{o}nd h{o}p h{o}ps h{o}p[p][e]d h{o}p[p]{i}ng [k]n{o}t dr{o}p dr{o}ps t{o}ss t{o}ss[e]s
+
+### T{o}m's D{o}g
+T{o}m h{a}s a d{o}g. T{o}m's d{o}g is B{o}b. B{o}b is a b{i}g d{o}g. B{o}b is a b{i}g bl{a}[c]k d{o}g.
+
+T{o}m h{a}s a r{o}[c]k. It is a b{i}g r{o}[c]k. It is a b{i}g bl{a}[c]k r{o}[c]k. T{o}m t{o}s[s]{e}s the r{o}[c]k {a}t a b{i}n. B{a}ng!
+
+B{o}b d{a}sh{e}s {a}nd g{e}ts the r{o}[c]k. B{o}b p{i}[c]ks it {u}p {a}nd d{a}sh{e}s b{a}[c]k. B{o}b dr{o}ps the r{o}[c]k for T{o}m to t{o}s[s] again.
+
+T{o}m gr{a}bs the r{o}[c]k so th{a}t T{o}m {a}nd B{o}b c{a}n go to h{a}v[e] a dr{i}nk.
+
+Then they go to the p{o}nd. T{o}m dr{o}ps the r{o}[c]k into the p{o}nd. Spl{a}sh! It spl{a}sh{e}s th{e}m. T{o}m and B{o}b g{e}t w{e}t.
+
+?qa What is Bob?
+= Bob is a big dog.
+?qa What does Tom toss at the bin?
+= Tom tosses a big rock at the bin.
+?qa How do Tom and Bob get wet?
+= They were splashed when Tom dropped a rock into the pond.
+
+### J{o}sh {a}nd R{o}b{i}n
+J{o}sh {a}nd R{o}b{i}n p{a}[c]k[e]d their b{a}g w{i}th l{a}m[b] ch{o}ps, some s{a}^olt {a}nd c{a}r[r]{o}ts. They pl{a}n[n][e]d to h{a}v[e] a p{i}cn{i}c in the f{o}r{e}st. They would w{a}^o[t]ch their l{i}t[t]l[e] y{a}^o[ch]t sk{i}m across the water in the p{o}nd. It was a good y{a}^o[ch]t.
+
+They want{e}d Sp{o}t their d{o}g to come w{i}th th{e}m. So they l{e}t h{i}m go fr{o}m the [k]n{o}t {a}nd J{o}sh l{e}t Sp{o}t sn{i}f[f] the b{a}g w{i}th the l{a}m[b] ch{o}ps, some s{a}^olt {a}nd c{a}r[r]{o}ts. Sp{o}t y{a}p[p][e]d {a}nd h{o}p[p][e]d {a}t the sm{e}l[l] of the l{a}m[b] ch{o}ps {a}nd he w{e}nt w{i}th th{e}m over the l{i}t[t]l[e] h{i}l[l] to the p{o}nd in the f{o}r{e}st.
+
+J{o}sh {a}nd R{o}b{i}n l{e}ft their b{a}g while they w{a}^o[t]ch[e]d the y{a}^o[ch]t sk{i}m across the water in the p{o}nd.
+
+Sp{o}t was st{i}l[l] w{a}^o[t]ch{i}ng the b{a}g w{i}th the l{a}m[b] ch{o}ps, some s{a}^olt {a}nd c{a}r[r]{o}ts. Sp{o}t gr{a}b[b][e]d the l{a}m[b] ch{o}ps fr{o}m the b{a}g {a}nd scr{a}m[m][e]d. His fr[i]{e}nd the fr{o}g would th{i}nk the ch{o}ps were good.
+
+J{o}sh {a}nd R{o}b{i}n h{a}d l{o}st the ch{o}ps {a}nd Sp{o}t the d{o}g. They st{i}l[l] h{a}d the c{a}r[r]{o}ts w{i}th some s{a}^olt for their p{i}cn{i}c.
+
+When they w{e}nt b{a}[c]k over the l{i}t[t]l[e] h{i}l[l], Sp{o}t was not w{i}th th{e}m. Sp{o}t {a}nd the fr{o}g were ch{o}mp{i}ng on the ch{o}ps in the f{o}r{e}st.
+
+Sp{o}t would come b{a}[c]k over the l{i}t[t]l[e] h{i}l[l] when he {a}nd the fr{o}g h{a}d f{i}n{i}sh[e]d ch{o}mp{i}ng on the l{a}m[b] ch{o}ps.
+
+?bank picnic, yacht, track, chomping, Spot, salt
+?cloze Josh and Robin packed lamb chops, carrots and ___ in their bag. | salt
+?cloze Josh and Robin wanted Spot to come with them on their ___. | picnic
+?cloze Josh and Robin watched the ___ on the pond. | yacht
+?cloze ___ had a friend that was a frog. | Spot
+?cloze Spot would come back along the ___ when he and the frog were finished ___ on the lamb chops. | track, chomping
+
+## L6 | Short vowel /u/ · inverted commas
+focus: u
+words: j{u}st c{u}t t{u}b r{u}g m{u}s[c]l{e}s s{u}n f{u}n m{u}m {U}g[g]l[e] {U}ncl[e] m{u}ch b{u}mp j{u}mp l{u}mp str{u}[c]k tr{u}[c]k b{u}t br{u}sh l{u}nch d{i}ff{i}c{u}lt D{u}nc{a}n cr{u}m[b] th{u}m[b] {u}mbr{e}l[l]{a}^u {a}nt{e}n[n]{a}^u
+
+### J{u}mp{i}ng {U}g[g]l{e}s
+{U}g the y[o]{u}ng {u}g[g]l[e] h{u}d[d]l[e]s, cold {a}nd w{e}t, under his {u}mbr{e}l[l]{a}^u. He h{a}s a b{i}g h{e}[a]d w{i}th {a}n {a}nt{e}n[n]{a}^u on t{o}p. This story is about one day when {U}g the {u}g[g]l[e] h{a}s to do his j{o}bs before he c{a}n fr{o}l{i}c w{i}th his fr[i]{e}nds.
+
+{U}p above h{i}m, the other {u}g[g]l[e]s j{u}mp. {U}g loves to j{u}mp too, b{u}t he h{a}s too m{u}ch to do before he c{a}n fr{o}l{i}c {a}nd j{u}mp w{i}th his {u}g[g]l[e] fr[i]{e}nds.
+
+{U}p above h{i}m, the other {u}g[g]l[e]s h{a}v[e] some p{u}nch. {U}g loves p{u}nch too, b{u}t he h{a}s too m{u}ch to do before he c{a}n fr{o}l{i}c {a}nd h{a}v[e] p{u}nch w{i}th his {u}g[g]l[e] fr[i]{e}nds.
+
+{U}g puts the r{u}b[b]{i}sh in the b{i}n {a}nd f{i}n{i}sh{e}s his j{o}bs. Now, {U}g c{a}n fr{o}l{i}c {a}nd h{a}v[e] f{u}n w{i}th his fr[i]{e}nds.
+
+?mc What are two things that Ug loves? Ug loves ___.
+- huddling cold and wet
+- to frolic and drink punch
+- to jump and frolic
+* jumping and drinking punch
+?mc Ug can frolic with his friends when ___.
+- up above him
+- he is under his umbrella
+* his jobs are finished
+- he drinks punch
+?mc What did Ug put in the bin?
+- some punch
+- his umbrella
+- his friends
+* the rubbish
+
+### M{u}ch F{u}n
+It was h{o}t. D{u}nc{a}n {a}nd M{a}lc{o}[l]m r{u}sh[e]d to g{e}t {U}ncl[e] B{u}[c]k {a}nd M{u}m. They want{e}d a sw{i}m {a}nd some f{u}n in the s{u}n. "Come on {U}ncl[e] B{u}[c]k!" b{e}g[g][e]d D{u}nc{a}n. {U}ncl[e] B{u}[c]k {a}nd M{u}m j{u}mp[e]d {u}p.
+
+M{u}m put l{u}nch into a b{u}[c]k{e}t. She p{a}[c]k[e]d s{a}n[d]w{i}ch{e}s to m{u}nch on, some n{u}ts, a j{u}g of p{u}nch, some dr{i}nk{i}ng water, m{u}gs, c{u}ps {a}nd her b{i}g {u}mbr{e}l[l]{a}^u. "L{e}t's go sw{i}m[m]{i}ng," they all s{a}ng {a}s they t{u}mbl[e]d into the tr{u}[c]k. They fr{o}l{i}[c]k[e]d in the p{u}d[d]l[e]s under the h{o}t s{u}n. They c{o}l[l]{e}ct{e}d sh{e}l[l]s {a}nd b[u]{i}lt s{a}nd c{a}s[t]l[e]s. M{u}m made D{u}nc{a}n {a}nd M{a}lc{o}[l]m put s{u}nbl{o}[c]k on their sk{i}n {a}nd put on h{a}ts before too m{u}ch s{u}n made th{e}m s{i}[c]k. "L{e}t's sw{i}m in the salt water before the s{u}n s{e}ts!" y{e}l[l][e]d {U}ncl[e] B{u}[c]k.
+
+Then they all s{a}t {u}nder M{u}m's b{i}g {u}mbr{e}l[l]{a}^u {a}nd w{a}^o[t]ch[e]d the s{u}n s{e}t over the water. "Th{a}t was so m{u}ch f{u}n," c{o}m[m]{e}nt{e}d M{a}lc{o}[l]m. {A}nd they all said th{a}t they would do it again the n{e}xt day.
+
+?bank collected, hot, bucket, truck, built, salt, fun
+?cloze Malcolm and Duncan wanted to swim because it was ___. | hot
+?cloze Mum packed lunch into a ___ and they all tumbled into the ___. | bucket, truck
+?cloze On the sand they ___ shells and ___ sand castles. | collected, built
+?cloze They had ___ in the sun and splashed in the ___ water. | fun, salt
+?qa What did Duncan say when he begged Uncle Buck to go swimming?
+= "Come on Uncle Buck!"
+?qa What did they all say when they tumbled into the truck?
+= "Let's go swimming."
+?qa What comment did Malcolm make at the end of the day?
+= "That was so much fun."
+
+## L7 | Short vowel /oo/
+focus: oo
+words: b{oo}k w{oo}l st{oo}d t{oo}k w{oo}d w{oo}l[l]{e}n f{u}^{oo}l[l] n{oo}k sh{oo}k l{oo}k should could would g{oo}d put h{oo}d w{o}^{oo}lf br{oo}k cr{oo}k h{oo}k c{oo}k c{oo}ks c{oo}k[e]d c{oo}k{i}ng b{u}^{oo}l[l] w{o}^{oo}m{a}n l{oo}ks l{oo}k[e]d l{oo}k{i}ng p{u}^{oo}l[l] p{u}^{oo}sh
+
+### C{oo}k{i}ng M{a}d{i}s{o}n's H{oo}k[e]d F{i}sh
+"L{oo}k {a}t the f{i}sh I h{oo}k[e]d w{i}th a f{i}sh{i}ng r{o}d," said M{a}d{i}s{o}n. She was thr{i}l[l][e]d to h{a}v[e] h{oo}k[e]d s{u}ch a good f{i}sh. "F{a}nt{a}st{i}c c{a}[t]ch!" Her m{u}m was thr{i}l[l][e]d too. "Th{a}t should be c{oo}k[e]d {u}p for l{u}nch."
+
+M{a}d{i}s{o}n {a}nd her m{u}m l{oo}k[e]d in the c{oo}kb{oo}k to find out the b{e}st m{e}th{o}d to c{oo}k the f{i}sh M{a}d{i}s{o}n h{a}d h{oo}k[e]d w{i}th her f{i}sh{i}ng r{o}d. "L{e}t's c{oo}k it in the {o}^uv{e}n," c{o}m[m]{e}nt{e}d M{a}d{i}s{o}n. "L{e}t's put l{e}m{o}n {a}nd salt on it {a}s w{e}l[l]." It d{i}d not take l{o}ng for the f{i}sh to c{oo}k in the {o}^uv{e}n. When it was c{oo}k[e]d M{u}m t{oo}k it out of the {o}^uv{e}n {a}nd put it in a f{i}sh d{i}sh. "Come on l{a}ds!" M{u}m y{e}l[l][e]d to M{a}d{i}s{o}n's d{a}d {a}nd all of the k{i}ds, "M{a}d{i}s{o}n h{a}s h{oo}k[e]d {a}nd c{oo}k[e]d a f{a}nt{a}st{i}c f{i}sh for l{u}nch. Come {a}nd g{e}t it before it is cold!" M{a}d{i}s{o}n's d{a}d was {a}st{o}n{i}sh[e]d {a}t how w{e}l[l] M{a}d{i}s{o}n h{a}d c{oo}k[e]d the f{i}sh she h{a}d h{oo}k[e]d w{i}th her f{i}sh{i}ng r{o}d. M{a}d{i}s{o}n's d{a}d was thr{i}l[l][e]d th{a}t M{a}d{i}s{o}n h{a}d h{oo}k[e]d {a}nd c{oo}k[e]d s{u}ch a good l{u}nch. M{a}d{i}s{o}n was thr{i}l[l][e]d too.
+
+?qa How had Madison hooked the fish?
+= Madison hooked it with a fishing rod.
+?qa In what did Madison look to find out how to cook the fish?
+= Madison looked in a cookbook.
+?qa How did Madison cook the fish?
+= Madison cooked the fish in the oven.
+
+### The Cr{oo}k
+The cr{oo}k p{u}^{oo}l[l][e]d the w{oo}l[l]{e}n h{oo}d over his h{e}[a]d so the w{i}[t]ch would not know it was h{i}m. He then cr{e}pt into her f{o}r{e}st to find the sh{e}lf th{a}t h{e}ld her sp{e}l[l] b{oo}k. The b{oo}k was f{u}^{oo}l[l] of good sp{e}l[l]s th{a}t would give h{i}m the c{a}s[t]l[e] of g{o}ld he want{e}d.
+
+The w{i}[t]ch was w{a}^o[t]ch{i}ng. She d{i}d know it was the cr{oo}k who h{a}d p{u}^{oo}l[l][e]d a w{oo}l[l]{e}n h{oo}d over his h{e}[a]d.
+
+The cr{oo}k w{e}nt across the w{oo}d{e}n st{e}ps. They t{oo}k h{i}m to the sp{e}l[l] b{oo}k th{a}t st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st.
+
+The w{i}[t]ch was w{a}^o[t]ch{i}ng. She could t{e}l[l] th{a}t the cr{oo}k was in her f{o}r{e}st l{oo}k{i}ng to take her sp{e}l[l] b{oo}k.
+
+The cr{oo}k sh{oo}k {a}s he t{oo}k the sp{e}l[l] b{oo}k th{a}t st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st. He l{oo}k[e]d {a}t the sp{e}l[l] he want{e}d {a}nd r{e}[a]d it from the b{oo}k.
+
+*Swoosh!* *Kaboosh!* *Smoosh!*
+
+The cr{oo}k sh{oo}k {a}s he r{a}n from the sp{e}l[l] b{oo}k th{a}t st{i}l[l] st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st.
+
+The w{i}[t]ch c{a}[c]kl[e]d!
+
+?bank shook, read, across, hood, book, wooden, spell, cackled, watching, forest
+?cloze The crook pulled a woollen ___ over his head. | hood
+?cloze The witch was ___. | watching
+?cloze The crook went ___ the ___ steps. | across, wooden
+?cloze The witch could tell the crook was in her ___. | forest
+?cloze The crook ___ as he took the spell ___ that stood on the shelf in the witch's forest. | shook, book
+?cloze The crook looked at the ___ he wanted. | spell
+?cloze The crook ___ the spell from the spell book. | read
+?cloze The witch ___ as the crook ran from the forest. | cackled
