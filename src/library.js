@@ -89,7 +89,7 @@ export function renderProgress(root) {
           ({ wb, stories }) => `
         <h2>${esc(wb.title)} <small>${esc(wb.subtitle)}</small></h2>
         <div class="table-wrap"><table>
-          <thead><tr><th>Lesson</th><th>Story</th><th>Read</th><th>Comprehension</th><th>Best words/min</th></tr></thead>
+          <thead><tr><th>Lesson</th><th>Story</th><th>Read</th><th><abbr title="Best comprehension score">Quiz</abbr></th><th><abbr title="Best words correct per minute">Words/min</abbr></th></tr></thead>
           <tbody>${stories
             .map((s) => {
               const q = store.quizResult(s.id);
