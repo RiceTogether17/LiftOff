@@ -270,6 +270,13 @@ export function createRuler(storyEl, { mode, word = null, safeArea, onMove }) {
       } else if (lineOf(wi) !== lineIdx) goLine(lineOf(wi));
     },
     reveal,
+    /** The word the ruler is on (Word mode: the pointed word). */
+    current: () => words[wordIdx] ?? null,
+    /** Jump to a word by its index in the story. */
+    goTo(i) {
+      if (mode === 'word') goWord(i);
+      else goLine(lineOf(Math.max(0, Math.min(words.length - 1, i))));
+    },
     destroy() {
       ro?.disconnect();
       cancelAnimationFrame(raf);

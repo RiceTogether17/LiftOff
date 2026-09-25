@@ -1,56 +1,81 @@
 import './styles.css';
 import lockedContent from 'virtual:locked-content';
-import { WORKBOOKS, storyById, setContent } from './content.js';
+import { storyById, setContent } from './content.js';
 import { deriveKey, decryptWithKey, exportKey, importKey } from './lock.js';
-import { renderLibrary, renderProgress } from './library.js';
+import { renderHome, renderShelf, renderWho, renderSetup, renderParent, renderDone } from './library.js';
 import { renderReader, leaveReader } from './reader.js';
 import { closeSoundItOut } from './soundItOut.js';
 import { stopAudio } from './audio.js';
+import { store } from './store.js';
+import { esc } from './render.js';
 
 const root = document.getElementById('app');
+let viewEl = null;
+
+/** App bar (who is reading, grown-ups) + the save warning + the view. */
+function chrome() {
+  if (!viewEl || !root.contains(viewEl)) {
+    root.innerHTML = `
+      <header class="appbar">
+        <a class="appbar-home" href="#/">🚀 <span>LiftOff</span></a>
+        <a class="who-chip" href="#/who" title="Switch reader"></a>
+        <a class="btn btn--ghost btn--small appbar-parent" href="#/parent">👪 Grown-ups</a>
+      </header>
+      <p class="save-warn" role="alert" hidden>⚠️ Progress can’t be saved on this device right now (the browser is blocking storage — for example in private browsing).
+        Reading still works, but answers and progress will be lost when this page closes.</p>
+      <div class="view"></div>`;
+    viewEl = root.querySelector('.view');
+    showSaveStatus(store.saveOk);
+  }
+  const p = store.active;
+  const chip = root.querySelector('.who-chip');
+  chip.hidden = !p;
+  chip.innerHTML = p ? `<span aria-hidden="true">${esc(p.avatar)}</span> ${esc(p.name)}<span class="sr-only"> — switch reader</span>` : '';
+  return viewEl;
+}
+
+function showSaveStatus(ok) {
+  const warn = root.querySelector('.save-warn');
+  if (warn) warn.hidden = ok;
+}
+store.onSaveStatus(showSaveStatus);
 
 function route() {
   leaveReader();
   stopAudio();
   closeSoundItOut();
   const [, view, id] = (location.hash.replace(/^#\/?/, '') || '').match(/^([^/]*)\/?(.*)$/) ?? [];
+  if (view === 'lock') return lock();
+  const out = chrome();
+  const go = (hash) => {
+    if (location.hash === hash) route();
+    else location.hash = hash;
+  };
+  window.scrollTo(0, 0);
+
+  // No reader yet (first visit): set one up before anything else.
+  if (!store.active && view !== 'setup') return go('#/setup');
+
   if (view === 'story') {
     const story = storyById(decodeURIComponent(id));
     if (story) {
-      renderReader(root, story, {});
+      renderReader(out, story);
       document.title = `${story.title} · LiftOff Stories`;
-      window.scrollTo(0, 0);
       return;
     }
   }
-  if (view === 'lock') {
-    lock();
-    return;
-  }
-  if (view === 'progress') {
-    renderProgress(root);
-    document.title = 'Progress · LiftOff Stories';
-    return;
-  }
-  const wbId = view === 'wb' ? decodeURIComponent(id) : lastShelf();
-  renderLibrary(root, wbId);
-  remember(wbId);
-  document.title = 'LiftOff Stories';
-}
-
-function lastShelf() {
-  try {
-    return localStorage.getItem('liftoff-shelf') || WORKBOOKS[0]?.id;
-  } catch {
-    return WORKBOOKS[0]?.id;
-  }
-}
-function remember(id) {
-  try {
-    if (id) localStorage.setItem('liftoff-shelf', id);
-  } catch {
-    /* ignore */
-  }
+  const screens = {
+    setup: () => renderSetup(out, () => go('#/')),
+    who: () => renderWho(out, () => go('#/')),
+    parent: () => renderParent(out, () => route()),
+    progress: () => renderParent(out, () => route()),
+    done: () => renderDone(out),
+    wb: () => renderShelf(out, decodeURIComponent(id)),
+  };
+  (screens[view] ?? (() => renderHome(out)))();
+  chrome(); // refresh the reader chip after profile changes
+  const name = { parent: 'Grown-ups', progress: 'Grown-ups', who: 'Who’s reading?', setup: 'Add a reader' }[view];
+  document.title = name ? `${name} · LiftOff Stories` : 'LiftOff Stories';
 }
 
 // ── Password lock ───────────────────────────────────────────────────────

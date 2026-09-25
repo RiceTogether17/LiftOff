@@ -6,28 +6,34 @@ WorkBooks. It holds 58 stories from all six Learn-to-Read WorkBooks (Lessons 1�
 reads aloud with the workbook coding, and can hear any sound, word, line or
 question when they need help.
 
+**For the child**
+
 | Feature | What it does | LiftOff method it follows |
 |---|---|---|
-| 🤝 **Meet the Words** | Shows the lesson's vocabulary page and the story's key words before reading | "Teaching vocabulary before reading a passage improves … comprehension" |
-| 🎨 **Coding** | Shows the workbook colour coding: blue for long vowels, red for vowels that make another sound, green for diphthongs, grey for silent letters, and small cue letters above | Diacritical marking; switch it off to practise reading uncoded text |
-| 📏 **Ruler** | An on-screen Reading Ruler that sits under the line on screen. **Word** moves a pointer one word at a time, **Line** covers the lines still to come, and **Window** dims everything except the current line. Move it with Next / Back, the arrow keys, a tap on a line, or by dragging it. It follows the voice in Listen mode and keeps its place when the text is resized. | Reading Ruler tracking |
-| 🔤 **Sound It Out** | Tap a word to see its sounds, then add them one at a time: `m → ma → maf → maft`. Each sound plays as it is added, any tile can be tapped to hear it again, and 🔊 says the whole word once the child has blended it | Grapheme blending Stage 3 |
-| 🎧 **Listen** | Reads the story aloud, highlighting each word. Tap any line to start there; 🐢 slows it down. In a Readers Theatre, it pauses on the child's own lines | Modelled fluent reading |
-| 🔊 **Questions** | Every comprehension question can be read aloud | Comprehension for early readers |
-| ⭐ Sight words | An uncoded high-frequency word shows as a sight word, not as sounds to blend | Sight words as a word-attack skill |
-| 💡 Look inside | Points out a smaller word plus *-ed* or *-ing* | "Can you see a sight word there?" |
-| 🎭 **Readers Theatre** | Choose a role and your lines are highlighted | WB6 Lizard of Oz script |
-| ⏱ **Fluency timer** | Measures words per minute for each story and keeps your best score | Reading fluency |
-| ✏️ **Check** | The workbook's own true/false, multiple-choice, word-bank, ordering and written-answer activities | Comprehension |
-| 📊 **Progress** | Shows stories read, quiz scores and best words per minute, for teachers and parents | Outcomes Record |
+| 🤝 **Warm-up** | Three words from the story on large cards. For each one: hear it, try it, then tick "I've practised this word". Key words ask "what does it mean?". *See all lesson words* keeps the full vocabulary page, and *Skip warm-up* is always there | "Teaching vocabulary before reading a passage improves … comprehension" |
+| 👆 **Tap a word** | Tapping any word while reading opens Sound It Out: see its sounds and add them one at a time (`m → ma → maf → maft`), tap a tile to hear a sound again. *Just hear the word* is always an option, and *Back to my story* returns to the text. A glowing word teaches this the first time | Grapheme blending Stage 3 |
+| 🎧 **Listen** | Reads the story aloud, highlighting each word. Tapping a word for help pauses the voice and offers *Continue reading*. In a Readers Theatre it pauses on the child's own lines | Modelled fluent reading |
+| 📏 **Ruler** | An on-screen Reading Ruler under the line on screen, in three styles: **Word** (a pointer under each word), **Line** (covers the lines still to come) and **Window** (only the current line is bright). Move it with *Next line / Next word*, the arrow keys, a tap, or by dragging | Reading Ruler tracking |
+| ⚙️ **Settings** | Colour coding on or off, colour key, text size, sound, and reading-aloud speed, saved for each child | Diacritical marking: blue long vowels, red other vowel sounds, green diphthongs, grey silent letters (with a dotted underline) and small cue letters |
+| ✏️ **Questions** | The workbook's own true/false, multiple-choice, word-bank, ordering and written-answer activities. Choose, then *Check*. If it's not right, *Look at the story* highlights the sentence with the clue, then the child tries again. If it's still not right, the answer is shown with the sentence that proves it. Ordering answers can be taken back. Every answer and written draft is saved | Comprehension |
+| 🌟 **Ending** | Says what the child did (words read, words worked on, questions answered), then offers *Read it again*, *Next story* or *Finish for today* | — |
 
-Progress is saved in the browser on the device being used (localStorage).
+**For grown-ups**
+
+| Feature | What it does |
+|---|---|
+| 🧒 **Readers** | A profile for each child, with a name and a picture, each with their own progress and settings. The child reading now is always shown at the top |
+| 🏠 **Home** | *Continue reading* (the place where they stopped, or questions still waiting), *Today's story* (the next unread story from the lesson a grown-up chose), and *Read a favourite again* |
+| 👪 **Grown-ups** | Suggested next story with the reason, one thing to try together, recent practice, help used (words looked at, Listen), the starting lesson, readers, backup and restore, reset, and lock. *View all activity* has the full table |
+| ⏱ **Reading pace** | Optional and led by a grown-up: time one read-aloud to get words per minute. If you enter the mistakes you counted, it also shows accuracy and words correct per minute. You can record whether they read on their own or with help. It is not shown to the child as a score |
+| 💾 **Saving** | Progress is saved in this browser (localStorage). If the browser blocks saving, a warning says so. *Download backup* and *Restore a backup* move progress between devices |
+
 
 ## Audio
 
 Single sounds are recordings in `public/audio/phonemes/` (46 files, shared
 with PhonicsQuest). Whole words, story lines and questions use the device's
-speech voice, preferring a British English one. 🔊 Sound in the reader turns
+speech voice, preferring a British English one. ⚙️ Settings → Sounds turns
 all audio on or off.
 
 Which recording a letter plays comes from the workbook coding
