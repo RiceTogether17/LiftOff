@@ -2,16 +2,18 @@
 
 An interactive reader for the stories in the LCentral **LiftOff Learn-to-Read**
 WorkBooks. It holds 58 stories from all six Learn-to-Read WorkBooks (Lessons 1–43). It is modelled on the Story mode in
-[PhonicsQuest](https://github.com/RiceTogether17/phonicsquest), but it has
-**no audio**. The child does the reading aloud, and the app supports it the
-way a LiftOff teacher would.
+[PhonicsQuest](https://github.com/RiceTogether17/phonicsquest). The child
+reads aloud with the workbook coding, and can hear any sound, word, line or
+question when they need help.
 
 | Feature | What it does | LiftOff method it follows |
 |---|---|---|
 | 🤝 **Meet the Words** | Shows the lesson's vocabulary page and the story's key words before reading | "Teaching vocabulary before reading a passage improves … comprehension" |
 | 🎨 **Coding** | Shows the workbook colour coding: blue for long vowels, red for vowels that make another sound, green for diphthongs, grey for silent letters, and small cue letters above | Diacritical marking; switch it off to practise reading uncoded text |
 | 📏 **Ruler** | Keeps one line or paragraph in focus and dims the rest | Reading Ruler tracking |
-| 🔤 **Sound It Out** | Tap a word to see its sounds, then add them one at a time: `m → ma → maf → maft` | Grapheme blending Stage 3. The app never says the sound and never gives the word away |
+| 🔤 **Sound It Out** | Tap a word to see its sounds, then add them one at a time: `m → ma → maf → maft`. Each sound plays as it is added, any tile can be tapped to hear it again, and 🔊 says the whole word once the child has blended it | Grapheme blending Stage 3 |
+| 🎧 **Listen** | Reads the story aloud, highlighting each word. Tap any line to start there; 🐢 slows it down. In a Readers Theatre, it pauses on the child's own lines | Modelled fluent reading |
+| 🔊 **Questions** | Every comprehension question can be read aloud | Comprehension for early readers |
 | ⭐ Sight words | An uncoded high-frequency word shows as a sight word, not as sounds to blend | Sight words as a word-attack skill |
 | 💡 Look inside | Points out a smaller word plus *-ed* or *-ing* | "Can you see a sight word there?" |
 | 🎭 **Readers Theatre** | Choose a role and your lines are highlighted | WB6 Lizard of Oz script |
@@ -20,6 +22,21 @@ way a LiftOff teacher would.
 | 📊 **Progress** | Shows stories read, quiz scores and best words per minute, for teachers and parents | Outcomes Record |
 
 Progress is saved in the browser on the device being used (localStorage).
+
+## Audio
+
+Single sounds are recordings in `public/audio/phonemes/` (46 files, shared
+with PhonicsQuest). Whole words, story lines and questions use the device's
+speech voice, preferring a British English one. 🔊 Sound in the reader turns
+all audio on or off.
+
+Which recording a letter plays comes from the workbook coding
+(`src/phonemes.js`): a cue letter is the sound (`{u}^oo` → short oo,
+`[ph]^f` → f), blue vowels are long, red vowels short, green letters their
+r-controlled or gliding sound, grey letters silent. Text the books no longer
+code follows the CheckOut rules (vowel teams, magic e, final y, soft c/g,
+-ed, -tion). `npm test` checks that every letter in every story maps to a
+recording or is silent.
 
 ## Password lock
 
