@@ -25,6 +25,7 @@ const LEGEND = `
     <span><b class="c-short">o</b> other vowel sound (small letter shows it)</span>
     <span><b class="c-diph">ar</b> diphthong</span>
     <span><b class="c-silent">e</b> silent</span>
+    <span><b class="c-alt">ph</b> says the small letter above</span>
   </div>`;
 
 function meetWords(story) {

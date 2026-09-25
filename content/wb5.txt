@@ -5,23 +5,23 @@ focus: ear
 words: y<ear> d<ear> n<ear>[e]d app<ear> sev<ere>^{ear} (i)d<ea>^{ear} h<ere>^{ear} m<ou>^{ow}nt[a]in<ee>^{ear}r m<ou>^{ow}nt[a]in<ee>^{ear}rs n<ear>ly disapp<ear> disapp<ear>s disapp<ear>[e]d disapp<ear>ing cl<ear> t<ear>s p<ee>^{ear}ring p<ie>^{ear}r sp<ear> g<ear>
 
 ### Fishing on the P<ie>^{ear}r
-K<i>^{er}rsten walk[e]d along the p<ie>^{ear}r to where she saw the l(a)dy fishing. They were old friends so K<i>^{er}rsten knew she could talk to her. "Please keep cl<ear> d<ear>," said the l(a)dy. "My fishing g<ear> is expensiv[e]."
+K<ir>^{er}sten walk[e]d along the p<ier>^{ear} to where she saw the l(a)dy fishing. They were old friends so K<ir>^{er}sten knew she could talk to her. "Please keep cl<ear> d<ear>," said the l(a)dy. "My fishing g<ear> is expensiv[e]."
 
-K<i>^{er}rsten could see the fishing g<ear> l(y)^iing on the p<ie>^{ear}r next to the l(a)dy. There was a sp<ear>, a net and a tackl[e] box. The l(a)dy held a fishing rod in her hands and dangl[e]d the line into the cl<ear> water below. The line disapp<ear>[e]d into the bl(ue)^{oo} water n<ear> the e[d]g[e] of the p<ie>^{ear}r.
+K<ir>^{er}sten could see the fishing g<ear> l(y)^iing on the p<ier>^{ear} next to the l(a)dy. There was a sp<ear>, a net and a tackl[e] box. The l(a)dy held a fishing rod in her hands and dangl[e]d the line into the cl<ear> water below. The line disapp<ear>[e]d into the bl(ue)^{oo} water n<ear> the e[d]g[e] of the p<ier>^{ear}.
 
-"Have you been here long?" ask[e]d K<i>^{er}rsten. She could see the l(a)dy's catch in the bucket on the wooden deck of the p<ie>^{ear}r.
+"Have you been here long?" ask[e]d K<ir>^{er}sten. She could see the l(a)dy's catch in the bucket on the wooden deck of the p<ier>^{ear}.
 
 "N<ear>ly four hours," repl(i)[e]d the l(a)dy. "I came down at d<aw>^{or}n because that is the best time to catch fish."
 
-K<i>^{er}rsten sat down beside the l(a)dy who had become her d<ear> friend and was fishing on the p<ie>^{ear}r. She tr(i)[e]d hard to p<ee>^{ear}r into the water to see the fish below. Even though the water was cr{y}^istal cl<ear>, she couldn't see the hook at the end of the line that disapp<ear>[e]d into the water.
+K<ir>^{er}sten sat down beside the l(a)dy who had become her d<ear> friend and was fishing on the p<ier>^{ear}. She tr(i)[e]d hard to p<eer>^{ear} into the water to see the fish below. Even though the water was cr{y}^istal cl<ear>, she couldn't see the hook at the end of the line that disapp<ear>[e]d into the water.
 
-Suddenly the l(a)dy's fishing rod r<ear>[e]d. Out in the water, a large fish jump[e]d. The l(a)dy smiled and began to w(i)nd the reel of her g<ear>. The reel made a l<ou>^{ow}d clicking s<ou>^{ow}nd as it w<ou>^{ow}nd in the fish that was hook[e]d. The l(a)dy t<u>^{er}rn[e]d to K<i>^{er}rsten and said, "Would you like to reel in the fish for me?"
+Suddenly the l(a)dy's fishing rod r<ear>[e]d. Out in the water, a large fish jump[e]d. The l(a)dy smiled and began to w(i)nd the reel of her g<ear>. The reel made a l<ou>^{ow}d clicking s<ou>^{ow}nd as it w<ou>^{ow}nd in the fish that was hook[e]d. The l(a)dy t<ur>^{er}n[e]d to K<ir>^{er}sten and said, "Would you like to reel in the fish for me?"
 
-K<i>^{er}rsten was so ex[c]ited. She grabb[e]d hold of the fishing g<ear> and w<ou>^{ow}nd the reel with the fish hook[e]d. The l(a)dy grabb[e]d the net and the sp<ear> and waited for the fish to arrive at the p<ie>^{ear}r. Before the fish was out of the water, she reach[e]d down to the cl<ear> water and c<au>^{or}[gh]t the fish in her net. She put it with the other fish in the bucket on the wooden deck of the p<ie>^{ear}r. "This is one of the best mornings I've had all y<ear>!" the l(a)dy exclaim[e]d.
+K<ir>^{er}sten was so ex[c]ited. She grabb[e]d hold of the fishing g<ear> and w<ou>^{ow}nd the reel with the fish hook[e]d. The l(a)dy grabb[e]d the net and the sp<ear> and waited for the fish to arrive at the p<ier>^{ear}. Before the fish was out of the water, she reach[e]d down to the cl<ear> water and c<au>^{or}[gh]t the fish in her net. She put it with the other fish in the bucket on the wooden deck of the p<ier>^{ear}. "This is one of the best mornings I've had all y<ear>!" the l(a)dy exclaim[e]d.
 
-K<i>^{er}rsten thought it was the same for her too.
+K<ir>^{er}sten thought it was the same for her too.
 
-The l(a)dy let K<i>^{er}rsten take home the fish she had c<au>^{or}[gh]t at the p<ie>^{ear}r. She would sh<are>^{air} it with her family as that night's meal.
+The l(a)dy let K<ir>^{er}sten take home the fish she had c<au>^{or}[gh]t at the p<ier>^{ear}. She would sh<are>^{air} it with her family as that night's meal.
 
 ?tf Kirsten knew the lady who was fishing on the pier. | T
 ?tf The lady had not caught any fish that morning. | F
@@ -31,25 +31,25 @@ The l(a)dy let K<i>^{er}rsten take home the fish she had c<au>^{or}[gh]t at the 
 ?tf Kirsten thought that it was one of the best mornings she'd had. | T
 
 ### The M<ou>^{ow}nt[a]in<ee>^{ear}r
-The sh<ee>^{ear}r cliff overlook[e]d the waves as they crash[e]d into the rocks below. T<ear>s came to the m<ou>^{ow}nt[a]in<ee>^{ear}r's eyes. It seem[e]d like he had fallen hours before but he had lost track of time. He was n<ear> the e[d]g[e] of the sh<ee>^{ear}r cliff with his cl(i)m[b]ing g<ear> stuck above him on another sh<ee>^{ear}r e[d]g[e], cl<ear>ly out of his reach.
+The sh<eer>^{ear} cliff overlook[e]d the waves as they crash[e]d into the rocks below. T<ear>s came to the m<ou>^{ow}nt[a]in<eer>^{ear}'s eyes. It seem[e]d like he had fallen hours before but he had lost track of time. He was n<ear> the e[d]g[e] of the sh<eer>^{ear} cliff with his cl(i)m[b]ing g<ear> stuck above him on another sh<eer>^{ear} e[d]g[e], cl<ear>ly out of his reach.
 
 He look[e]d up to the cl<ear> sky and w{o}^und{er}^u[e]d if he would see a helicopt<er> or resc(u)[e] team soon. He could not hear anyone and began to think that no one even knew he was there.
 
 He knew the sun would soon disapp<ear> below the hor(i)zon and night would fall. If someone didn't come soon, he would have to stay there for the [w]hole night.
 
-He look[e]d again at his w(ou)^{oo}nded leg. The inj<ur>^{er}y was sev<ere>^{ear} and he knew that he could not get off the cliff without help. If he could just get to his cl(i)m[b]ing g<ear>, he could raise[e] the al<ar>m with the r(a)d(i)^e(o) equipment he carr(i)[e]d. As hard as he tr(i)[e]d, he could not get his leg to move. As hard as he tr(i)[e]d to stay c<a>^{ar}[l]m, the f<ear> contin(u)[e]d to rise inside of him.
+He look[e]d again at his w(ou)^{oo}nded leg. The inj<ur>^{er}y was sev<ere>^{ear} and he knew that he could not get off the cliff without help. If he could just get to his cl(i)m[b]ing g<ear>, he could rais[e] the al<ar>m with the r(a)d(i)^e(o) equipment he carr(i)[e]d. As hard as he tr(i)[e]d, he could not get his leg to move. As hard as he tr(i)[e]d to stay c<a>^{ar}[l]m, the f<ear> contin(u)[e]d to rise inside of him.
 
-Then he had an (i)d<ea>^{ear}. He could see some w(i)ld d<ee>^{ear}r grazing n<ear> his cl(i)m[b]ing g<ear>. He thought he might be (a)ble to sc<are>^{air} one of the d<ee>^{ear}r that was gr(a)zing close to the g<ear>. The d<ee>^{ear}r might [k]nock the pack off the le[d]g[e] above and down onto his le[d]g[e]. He would then be (a)ble to use the equipment.
+Then he had an (i)d<ea>^{ear}. He could see some w(i)ld d<eer>^{ear} gr(a)zing n<ear> his cl(i)m[b]ing g<ear>. He thought he might be able to sc<are>^{air} one of the d<eer>^{ear} that was gr(a)zing close to the g<ear>. The d<eer>^{ear} might [k]nock the pack off the le[d]g[e] above and down onto his le[d]g[e]. He would then be able to use the equipment.
 
-The m<ou>^{ow}nt[a]in<ee>^{ear}r had been stuck on the sh<ee>^{ear}r cliff for a long time. He wanted to be resc(u)[e]d. This was no long<er> a fun adven[t]^{ch}<ure>^{er}[e]. He reach[e]d for some small rocks n<ear> him and thr(ew)^{oo} them n<ear> the d<ee>^{ear}r that was gr(a)zing cl(o)sest to his cl(i)m[b]ing g<ear>. The d<ee>^{ear}r was f<ear>ful that the m<ou>^{ow}nt[a]in<ee>^{ear}r would hit it with the rocks and jump[e]d away.
+The m<ou>^{ow}nt[a]in<eer>^{ear} had been stuck on the sh<eer>^{ear} cliff for a long time. He wanted to be resc(u)[e]d. This was no long<er> a fun adven[t]^{ch}<ur>^{er}[e]. He reach[e]d for some small rocks n<ear> him and thr(ew)^{oo} them n<ear> the d<eer>^{ear} that was gr(a)zing cl(o)sest to his cl(i)m[b]ing g<ear>. The d<eer>^{ear} was f<ear>f{u}l that the m<ou>^{ow}nt[a]in<eer>^{ear} would hit it with the rocks and jump[e]d away.
 
-As the d<ee>^{ear}r jump[e]d, some rocks on the sh<ee>^{ear}r cliff above the m<ou>^{ow}nt[a]in<ee>^{ear}r came crashing down and onto the same le[d]g[e] where he was l(y)^iing. He cl(o)s[e]d his eyes to pr(o)tect them from the dust that the rocks brought with them. When he open[e]d his eyes, the m<ou>^{ow}nt[a]in<ee>^{ear}r was no long<er> in f<ear> of his life.
+As the d<eer>^{ear} jump[e]d, some rocks on the sh<eer>^{ear} cliff above the m<ou>^{ow}nt[a]in<eer>^{ear} came crashing down and onto the same le[d]g[e] where he was l(y)^iing. He cl(o)s[e]d his eyes to pr(o)tect them from the dust that the rocks brought with them. When he open[e]d his eyes, the m<ou>^{ow}nt[a]in<eer>^{ear} was no long<er> in f<ear> of his life.
 
-His cl(i)m[b]ing g<ear> had also fallen when the d<ee>^{ear}r jump[e]d.
+His cl(i)m[b]ing g<ear> had also fallen when the d<eer>^{ear} jump[e]d.
 
-The m<ou>^{ow}nt[a]in<ee>^{ear}r used his equipment to r(a)d(i)^e(o) for help. He told the resc(u)[e] team that he had a sev<ere>^{ear} leg inj<ur>^{er}y and that he would need help to get off the sh<ee>^{ear}r cliff.
+The m<ou>^{ow}nt[a]in<eer>^{ear} used his equipment to r(a)d(i)^e(o) for help. He told the resc(u)[e] team that he had a sev<ere>^{ear} leg inj<ur>^{er}y and that he would need help to get off the sh<eer>^{ear} cliff.
 
-The resc(u)[e] team arrived in a helicopt<er> and lifted the m<ou>^{ow}nt[a]in<ee>^{ear}r in a stre[t]ch<er>, off the sh<ee>^{ear}r cliff and then fl(ew)^{oo} him to hospital. The m<ou>^{ow}nt[a]in<ee>^{ear}r watch[e]d the sun disapp<ear> over the hor(i)zon and the sky began to d<ar>ken as the helicopt<er> fl(ew)^{oo} him away from the sh<ee>^{ear}r cliff. He look[e]d down at the d<ee>^{ear}r gr(a)zing next to the sh<ee>^{ear}r cliff where he had just spent many hours and said a qu(i)et thank you to it for helping to resc(u)[e] him too.
+The resc(u)[e] team arrived in a helicopt<er> and lifted the m<ou>^{ow}nt[a]in<eer>^{ear} in a stre[t]ch<er>, off the sh<eer>^{ear} cliff and then fl(ew)^{oo} him to hospital. The m<ou>^{ow}nt[a]in<eer>^{ear} watch[e]d the sun disapp<ear> over the hor(i)zon and the sky began to d<ar>ken as the helicopt<er> fl(ew)^{oo} him away from the sh<eer>^{ear} cliff. He look[e]d down at the d<eer>^{ear} gr(a)zing next to the sh<eer>^{ear} cliff where he had just spent many hours and said a qu(i)et thank you to it for helping to resc(u)[e] him too.
 
 ?bank cliff, jumped, helicopter, anyone, calm, deer, gear, disappear, rescue, sheer, tears, severe, enjoying, radio, idea
 ?cloze ___ came to the mountaineer's eyes when he was stuck near the edge of a sheer cliff. | tears
@@ -72,11 +72,11 @@ I am so ex[c]ited that I've woken up while it is still d<ar>k this morning. It h
 
 I can tell that Mum is ex[c]ited about it too, because she has been doing that thing where she keeps talking and talking. I know she's ex[c]ited when she does that. She is ex[c]ited about seeing her sist<er> again. We will be staying with my Aunty Jess and my c[o]usin Jack in a place call[e]d N(oo)sa on the Sunshine Coast. It's n<or>th of Brisban[e]. We have to hire a car because it's over two hours' drive from the nearest big airp<or>t in Brisban[e] to where they liv[e] in N(oo)sa.
 
-Dad told me that we will be able to swim in the s<u>^{er}rf and play on the sandy beaches. There won't be any large ships out in the sea like we see when we visit Sent(o)sa or East Coast Park sometimes. I w{o}^und{er}^u what it'll be like. I can't wait to be there and see it for myself.
+Dad told me that we will be able to swim in the s<ur>^{er}f and play on the sandy beaches. There won't be any large ships out in the sea like we see when we visit Sent(o)sa or East Coast Park sometimes. I w{o}^und{er}^u what it'll be like. I can't wait to be there and see it for myself.
 
-I am so ex[c]ited! Each day I'm going to [w]rite in my j<ou>^{er}rnal about all the things that happen. I want to rememb<er> this holiday for the rest of my life.
+I am so ex[c]ited! Each day I'm going to [w]rite in my j<our>^{er}nal about all the things that happen. I want to rememb<er> this holiday for the rest of my life.
 
-I w{o}^und{er}^u if I'll see kangar(oo)s hopping along the beach. Maybe I'll even see one going for a swim. I hope I don't see any sh<ar>ks in the water. Dad told me that the beaches have spec^{sh}[i]al nets around them to stop the sh<ar>ks from getting in. I'm pleased about that.
+I w{o}^und{er}^u if I'll see kangar(oo)s hopping along the beach. Maybe I'll even see one going for a swim. I hope I don't see any sh<ar>ks in the water. Dad told me that the beaches have spe[ci]^{sh}al nets around them to stop the sh<ar>ks from getting in. I'm pleased about that.
 
 OK, I'll have to go. I can hear Mum talking so she must be awake. Maybe if we have bre[a]kfast early, we can go to the airp<or>t early too.
 
@@ -88,15 +88,15 @@ OK, I'll have to go. I can hear Mum talking so she must be awake. Maybe if we ha
 ### Gina's J<ou>^{er}rnal: Day 1 (Night)
 Day 1 - M{o}^unday night - In Australia!
 
-Now I am very tired. After bre[a]kfast we all gath<er>[e]d our bags and c<au>^{or}[gh]t a tax(i)^e to the airp<or>t. J(o)s(ie)^e waved us off. She is staying home to look after Nanna and Aunt Janet.
+Now I am very tired. After bre[a]kfast we all gath<er>[e]d our bags and c<au>^{or}[gh]t a tax(i)^e to the airp<or>t. J(o)s[i](e) waved us off. She is staying home to look after Nanna and Aunt Janet.
 
-At the airp<or>t, we check[e]d in and were given our seats on the plane. We had a long wait at the airp<or>t before we were all<ow>[e]d to sit on the plane. The people on the plane were very friendly and I was all<ow>[e]d to have whatever drink I wanted. They brought us food and drinks and I had my own televis^{zz}ion to watch in the seat in front of me. I saw three m(o)^{oo}v(ie)s that I had been wanting to see for ages.
+At the airp<or>t, we check[e]d in and were given our seats on the plane. We had a long wait at the airp<or>t before we were all<ow>[e]d to sit on the plane. The people on the plane were very friendly and I was all<ow>[e]d to have whatever drink I wanted. They brought us food and drinks and I had my own televi[si]^{zz}on to watch in the seat in front of me. I saw three m(o)^{oo}v[i](e)s that I had been wanting to see for ages.
 
 I had a wind(o)[w] seat too, so I could see everything as we fl(ew)^{oo} p<a>^{ar}st. It was str(a)ng[e] though, because there wasn't much to see once we got up really high. Then before I could believ[e] it, the people on the plane were saying we had to get re[a]dy to land in Brisban[e].
 
-It was very bumpy as the plane landed and I heard someone make a l<ou>^{ow}d s<ou>^{ow}nd like they were sc<are>^{air}[e]d which I thought was funny. I think it's bump(i)^e<er> driving in a car than flying in a plane. When we got to Brisban[e], we had to sh(o)[w] our p<a>^{ar}ssp<or>ts to an offic<er> there. She ask[e]d us questions about where we were going and why we were visiting Australia. She didn't smile much at Dad but when I said hell(o) to her and gave her my biggest smile, the offic<er> smiled back and said, "G'day sweeth<ea>^{ar}rt!" I still don't know what she me[a]nt.
+It was very bumpy as the plane landed and I heard someone make a l<ou>^{ow}d s<ou>^{ow}nd like they were sc<ar>^{air}[e]d which I thought was funny. I think it's bump(i)^e<er> driving in a car than flying in a plane. When we got to Brisban[e], we had to sh(o)[w] our p<a>^{ar}ssp<or>ts to an offic<er> there. She ask[e]d us questions about where we were going and why we were visiting Australia. She didn't smile much at Dad but when I said hell(o) to her and gave her my biggest smile, the offic<er> smiled back and said, "G'day sweeth<ear>^{ar}t!" I still don't know what she me[a]nt.
 
-Mum drove the car from the airp<or>t in Brisban[e] and it seemed like forever before we reach[e]d the t<u>^{er}rn-off for N(oo)sa. The t<a>^{or}llest b[u]ilding I saw all the way in the car for two hours was only three st<or>eys high. There are no t<a>^{or}ll b[u]ildings or high-rise ap<ar>tments; only houses with lots of gr<a>^{ar}ss and g<ar>dens. Aunty Jess and Jack's house is huge. They each have their own bedr(oo)m and a sp<are>^{air} one too. I'm sleeping in Jack's sp<are>^{air} r(oo)m and Mum and Dad are sleeping in Aunty Jess's sp<are>^{air} r(oo)m.
+Mum drove the car from the airp<or>t in Brisban[e] and it seemed like forever before we reach[e]d the t<ur>^{er}n-off for N(oo)sa. The t<a>^{or}llest b[u]ilding I saw all the way in the car for two hours was only three st<or>eys high. There are no t<a>^{or}ll b[u]ildings or high-rise ap<ar>tments; only houses with lots of gr<a>^{ar}ss and g<ar>dens. Aunty Jess and Jack's house is huge. They each have their own bedr(oo)m and a sp<are>^{air} one too. I'm sleeping in Jack's sp<are>^{air} r(oo)m and Mum and Dad are sleeping in Aunty Jess's sp<are>^{air} r(oo)m.
 
 It's already night time here now. As much as I wanted to play for long<er> with Jack tonight, I am too tired. Mum told me that I needed to get some sleep because tomorr(o)[w] is going to be a big day. I w{o}^und{er}^u what we'll do tomorr(o)[w].
 
@@ -109,17 +109,17 @@ It's already night time here now. As much as I wanted to play for long<er> with 
 focus: CheckOut
 
 ### Gina's J<ou>^{er}rnal: Day 2
-Day 2 - T(ue)[e]sday
+Day 2 - T(u)[e]sday
 
-A b<i>^{er}rd making a very l<ou>^{ow}d laughing s<ou>^{ow}nd woke me up this morning. At first I thought it must have been Jack playing a trick on me, but then I r(e)alised that it was c{o}^uming from a tree just near the wind(o)[w]. The kookaburra's laugh was very l<ou>^{ow}d. Aunty Jess was already awake and gave me some mince meat to feed to the kookaburra. I thought it was going to peck my hand but it just took the f(oo)d and fl(ew)^{oo} back into the tree. Then it laugh[e]d again and another three kookaburras arrived. They look[e]d like a mum and dad and their two b(a)b(ie)s.
+A b<ir>^{er}d making a very l<ou>^{ow}d laughing s<ou>^{ow}nd woke me up this morning. At first I thought it must have been Jack playing a trick on me, but then I r(e)alised that it was c{o}^uming from a tree just near the wind(o)[w]. The kookaburra's laugh was very l<ou>^{ow}d. Aunty Jess was already awake and gave me some mince meat to feed to the kookaburra. I thought it was going to peck my hand but it just took the f(oo)d and fl(ew)^{oo} back into the tree. Then it laugh[e]d again and another three kookaburras arrived. They look[e]d like a mum and dad and their two b(a)b[i](e)s.
 
-Because the sun comes up at about five (o)'clock, it was very early in the morning and Mum and Dad were still sleeping. So Aunty Jess, Jack and I went to the beach for an early morning swim before bre[a]kfast. The water was cold to get into but we had lots of fun. There were some big waves that crash[e]d down and made a l<ou>^{ow}d s<ou>^{ow}nd. It was almost like the thund<er> we have in Singap<or>[e] sometimes. The beach was white sand which made a funny squeaking s<ou>^{ow}nd when I walk[e]d on it. The c{o}^ul[o]{u}^ur[s] all around were am(a)zing. Everything seem[e]d like someone had c{o}^ul[o]{u}^ur[e]d them in with really new pencils.
+Because the sun comes up at about five (o)'clock, it was very early in the morning and Mum and Dad were still sleeping. So Aunty Jess, Jack and I went to the beach for an early morning swim before bre[a]kfast. The water was cold to get into but we had lots of fun. There were some big waves that crash[e]d down and made a l<ou>^{ow}d s<ou>^{ow}nd. It was almost like the thund<er> we have in Singap<or>[e] sometimes. The beach was white sand which made a funny squeaking s<ou>^{ow}nd when I walk[e]d on it. The c{o}^ul[o]{u}^u[r]s all around were am(a)zing. Everything seem[e]d like someone had c{o}^ul[o]{u}^u[re]d them in with really new pencils.
 
-It was even too early for the lifes(a)v<er>s. They had not yet set up their beach patrol to watch out for people who were swimming. But, as Aunty Jess is a lifes(a)v<er>, she knew where it was safe to swim. I didn't go out very far into the s<u>^{er}rf because I was a little bit scared. Jack's been swimming at the beach for a long time, so he went for a big swim with his mum, right out behind the waves. I was very pleased when they both c<au>^{or}[gh]t a wave and came back into the beach.
+It was even too early for the lifes(a)v<er>s. They had not yet set up their beach patrol to watch out for people who were swimming. But, as Aunty Jess is a lifes(a)v<er>, she knew where it was safe to swim. I didn't go out very far into the s<ur>^{er}f because I was a little bit scared. Jack's been swimming at the beach for a long time, so he went for a big swim with his mum, right out behind the waves. I was very pleased when they both c<au>^{or}[gh]t a wave and came back into the beach.
 
-Mum and Dad were awake when we got back. Because it was a sunny and hot day we decided to spend it sn<or>kelling and swimming at First P<oi>^{oy}nt near N(oo)sa Na[t]^{sh}ional Park. We used plenty of sunscreen to protect ourselv[e]s from the hot sun. The water was cr{y}^istal cl<ear> and we could see a long way through it. Some dol[ph]^fins swam near us and at first I thought they might have been sharks. I was pleased that Dad was in the water with me.
+Mum and Dad were awake when we got back. Because it was a sunny and hot day we decided to spend it sn<or>kelling and swimming at First P<oi>^{oy}nt near N(oo)sa Na[ti]^{sh}onal Park. We used plenty of sunscreen to protect ourselv[e]s from the hot sun. The water was cr{y}^istal cl<ear> and we could see a long way through it. Some dol[ph]^fins swam near us and at first I thought they might have been sharks. I was pleased that Dad was in the water with me.
 
-We swam over to the dol[ph]^fins but they quickly disapp<ear>[e]d. By the time I got out of the water from sn<or>kelling, I had been in the water for so long that my skin was all [w]rinkled and it was time for dinn<er> in the big park. Dad cook[e]d a b<ar>bec(u)[e]. In one of the t<a>^{or}ll trees, we saw a mother k(o)<a>^{ar}la and her b(a)by eating the leaves. I couldn't believ[e] just how cute the b(a)by k(o)<a>^{ar}la was. Then some b<i>^{er}rds fl(ew)^{oo} around and into the trees making a l<ou>^{ow}d screeching s<ou>^{ow}nd. They were l<ou>^{ow}d<er> than the kookaburras this morning. Aunty Jess told me that they were call[e]d rainb(o)[w] lorikeets. They had many b[e]a(u)tif{u}^{oo}l c{o}^ul[o]{u}^ur[s] and could fly very fast.
+We swam over to the dol[ph]^fins but they quickly disapp<ear>[e]d. By the time I got out of the water from sn<or>kelling, I had been in the water for so long that my skin was all [w]rinkl[e]d and it was time for dinn<er> in the big park. Dad cook[e]d a b<ar>bec(u)[e]. In one of the t<a>^{or}ll trees, we saw a mother k(o)<a>^{ar}la and her b(a)by eating the leaves. I couldn't believ[e] just how cute the b(a)by k(o)<a>^{ar}la was. Then some b<ir>^{er}ds fl(ew)^{oo} around and into the trees making a l<ou>^{ow}d screeching s<ou>^{ow}nd. They were l<ou>^{ow}d<er> than the kookaburras this morning. Aunty Jess told me that they were call[e]d rainb(o)[w] lorikeets. They had many b[ea](u)tif{u}^{oo}l c{o}^ul[o]{u}^u[r]s and could fly very fast.
 
 It was just getting dark when we got home in the evening at about eight (o)'clock. We have had a terrific day. Tomorr(o)[w] Mum wants to go shopping at some markets in a little t<ow>n not far away call[e]d [E](u)mund(i)^e. I think I would like to spend the [w]hole day sn<or>kelling again.
 
@@ -135,13 +135,13 @@ focus: CheckOut
 ### Gina's J<ou>^{er}rnal: Day 3
 Day 3 - We[d]n[e]sday
 
-This morning Mum woke up early so that she could get to the [E](u)mund(i)^e markets when they started. [E](u)mund(i)^e is a little t<ow>n not far from N(oo)sa where many people set up stalls with their own handmade (i)tems. I was a bit bored until I found a stall that was selling pupp(ie)^es. The lady who was selling the pupp(ie)^es said I could stay and play with them while Mum look[e]d at some other stalls. Mum was beginning to collect more and more shopping bags so she left some of them with me so that she didn't have to carry so much. The pupp(ie)^es were so cute. Because they were just pupp(ie)^es they were only small, but the lady told me that they would gr(o)[w] up to be very large dogs, almost as big as me. I would have liked to take them all home with me but I knew I couldn't. She let me help her feed them and then I used a spec^{sh}[i]al brush to make their fur look nice.
+This morning Mum woke up early so that she could get to the [E](u)mund(i)^e markets when they started. [E](u)mund(i)^e is a little t<ow>n not far from N(oo)sa where many people set up stalls with their own handmade (i)tems. I was a bit bored until I found a stall that was selling pupp(i)^e[e]s. The lady who was selling the pupp(i)^e[e]s said I could stay and play with them while Mum look[e]d at some other stalls. Mum was beginning to collect more and more shopping bags so she left some of them with me so that she didn't have to carry so much. The pupp(i)^e[e]s were so cute. Because they were just pupp(i)^e[e]s they were only small, but the lady told me that they would gr(o)[w] up to be very large dogs, almost as big as me. I would have liked to take them all home with me but I knew I couldn't. She let me help her feed them and then I used a spe[ci]^{sh}al brush to make their fur look nice.
 
 Mum return[e]d with a [w]hole lot more shopping bags full of odds and ends that she had bought. By the time we got back to the house, it was after lunch and definit[e]ly time for a swim. We all got dress[e]d for the beach and walk[e]d down together. We must have stay[e]d there for at least three hours. The we[a]ther was perfect for playing at the beach.
 
-It had been such an ex[h]<au>^{or}sting time that when we got home in the afternoon, we all fell asleep. By the time we woke up, it was time for our picnic on top of M<ou>^{ow}nt Tinb<ee>^{ear}rw<a>^{ar}h. That night it was going to be a full m(oo)n and we plann[e]d to watch it rise over the (o)c^{sh}e[a]n. We park[e]d the car near the path that led to the top of the m<ou>^{ow}nt[a]in. We carr(ie)d our picnic dinner right to the top. It wasn't a very long way. We still manag[e]d to cl(i)m[b] over lots of rocks to make it even more fun. At the top, there was a little hut with a r(oo)f. The v[i](ew)^u was magnificent. We could see the hor(i)zon in every direc[t]^{sh}ion. As we watch[e]d the sun setting below the hor(i)zon in the west, we look[e]d back to the (o)c^{sh}e[a]n and could see the full m(oo)n rising in the east. The m(oo)n was silver and made the water sparkle magically. It was gigantic in the sky. As it rose over the water getting higher and higher, we could see th<ou>^{ow}sands of stars twinkling in the night sky. It was like looking at the bed of a princess and her sparkling cr<ow>n of d(i)[a]monds. The path back down the m<ou>^{ow}nt[a]in was well lit by the br(i)[gh]t m(oo)n as we walk[e]d back to the car. When we arrived home, Jack and I play[e]d m<a>^{ar}h-j^{zz}ong with Mum and Aunty Jess. I think it was after midnight when we finally went to bed.
+It had been such an ex[h]<au>^{or}sting time that when we got home in the afternoon, we all fell asleep. By the time we woke up, it was time for our picnic on top of M<ou>^{ow}nt Tinb<eer>^{ear}w<ah>^{ar}. That night it was going to be a full m(oo)n and we plann[e]d to watch it rise over the (o)[c]^{sh}e[a]n. We park[e]d the car near the path that led to the top of the m<ou>^{ow}nt[a]in. We carr(i)[e]d our picnic dinner right to the top. It wasn't a very long way. We still manag[e]d to cl(i)m[b] over lots of rocks to make it even more fun. At the top, there was a little hut with a r(oo)f. The v[i](ew)^u was magnificent. We could see the hor(i)zon in every direc[ti]^{sh}on. As we watch[e]d the sun setting below the hor(i)zon in the west, we look[e]d back to the (o)[c]^{sh}e[a]n and could see the full m(oo)n rising in the east. The m(oo)n was silver and made the water sparkle magically. It was g(i)gantic in the sky. As it rose over the water getting higher and higher, we could see th<ou>^{ow}sands of stars twinkling in the night sky. It was like looking at the bed of a princess and her sparkling cr<ow>n of d(i)[a]monds. The path back down the m<ou>^{ow}nt[a]in was well lit by the br(i)[gh]t m(oo)n as we walk[e]d back to the car. When we arrived home, Jack and I play[e]d m<ah>^{ar}-j^{zz}ong with Mum and Aunty Jess. I think it was after midnight when we finally went to bed.
 
-I've sat up in bed for a while tonight to write some more in my j<ou>^{er}rnal. I have been thinking about how lucky I am to visit Jack this holiday. I only have one more day of my holiday left before we fly home on Fr(i)day. We've decided that tomorr(o)[w] we'll visit Australia Z(oo). I've seen it on televis^{zz}ion before. There are people at this z(oo) who [w]restle with crocodiles. Even though they have some very scary crea[t]^{ch}ur[e]s in Australia, it seems funny that it is such a b[e]a(u)tif{u}^{oo}l place. Although, come to think of it, I haven't really seen anything scary. I suppose at Australia Z(oo) tomorr(o)[w], I will finally get to t[o]uch some of them for real. I hope I get to cuddle a k(o)<a>^{ar}la!
+I've sat up in bed for a while tonight to write some more in my j<our>^{er}nal. I have been thinking about how lucky I am to visit Jack this holiday. I only have one more day of my holiday left before we fly home on Fr(i)day. We've decided that tomorr(o)[w] we'll visit Australia Z(oo). I've seen it on televi[si]^{zz}on before. There are people at this z(oo) who [w]res[t]le with crocodiles. Even though they have some very scary crea[t]^{ch}ur[e]s in Australia, it seems funny that it is such a b[ea](u)tif{u}^{oo}l place. Although, come to think of it, I haven't really seen anything scary. I suppose at Australia Z(oo) tomorr(o)[w], I will finally get to t[o]uch some of them for real. I hope I get to cuddle a k(o)<a>^{ar}la!
 
 ?tf Gina fed the puppies with a special brush. | F
 ?tf After lunch, Gina walked to the beach for a swim on her own. | F
@@ -161,9 +161,9 @@ I went to the beach for an early morning swim again with Aunty Jess and Jack. Th
 
 Mum and Dad had slept in again and were still asleep when we got back. Aunty Jess said that we needed to wake them so that we could get organised for our day, so Jack and I went and jump[e]d on them in bed to wake them. Dad didn't like it much but Mum hit me playfully with her pillow. When she hit Dad too, he started laughing and tickled me until I had to beg him to stop.
 
-We had a very quick bre[a]kfast so that we could catch the free bus. Today we were visiting Australia Zoo. It was a long drive in the bus that took almost an hour and a half. Finally we arrived. It was very ex[c]iting because we saw a young girl call[e]d Bindy feed a crocodile on her own. I was amazed. Her dad used to feed the crocodiles but now she has taken over. For a short while I w{o}^und{er}^u[e]d what it would be like to be Bindy. Then I thought, "I will miss Mum and Dad a lot living here," so I quickly forgot about it.
+We had a very quick bre[a]kfast so that we could catch the free bus. Today we were visiting Australia Zoo. It was a long drive on the bus that took almost an hour and a half. Finally we arrived. It was very ex[c]iting because we saw a young girl call[e]d Bindy feed a crocodile on her own. I was amazed. Her dad used to feed the crocodiles but now she has taken over. For a short while I w{o}^und{er}^u[e]d what it would be like to be Bindy. Then I thought, "I will miss Mum and Dad a lot living here," so I quickly forgot about it.
 
-There were also many other animals, such as birds and snakes. Australia has some of the most poisonous snakes in the [w]hole world. There were ele[ph]^fants and other little Australian mars(u)^{oo}p(i)^eals. Along the paths, you could see many big lizards that were living in the w(i)ld. There was also a kom(o)d(o) dragon that was kept in a big pen. It was a huge lizard that was bigger than me.
+There were also many other animals, such as birds and snakes. Australia has some of the most poison[o]us snakes in the [w]hole world. There were ele[ph]^fants and other little Australian mars(u)^{oo}p(i)^eals. Along the paths, you could see many big lizards that were living in the w(i)ld. There was also a kom(o)d(o) dragon that was kept in a big pen. It was a huge lizard that was bigger than me.
 
 When it was time to go home, we all cl(i)m[b][e]d back on the bus and sang songs with the bus driver as we travell[e]d home to Noosa. Everyone join[e]d in with the singing as we drove along. It was great fun and very funny. Jack and I wanted to have another swim at the beach when we got home but the adults were too tired. Then, after talking to Aunty Jess, Mum and Dad let Jack and me walk down to the beach on our own. This time, we had to swim between the flags so that the lifesavers could watch us. We play[e]d some more 'Crash or Dive' until we were so hungry we knew we couldn't play any more.
 
@@ -181,17 +181,15 @@ Wow! This is the best holiday I've ever had.
 focus: Composition
 
 ### Gina's Journal: Going Home
-! In the Teacher Copy, a teacher note covers about three lines here. Please check the student WorkBook for the missing words.
+Before I knew what had happen[e]d, I was back on a plane in Brisban[e] and flying home to Singapore. We had left Aunty Jess and Jack early in the morning. Mum was crying as she hopp[e]d into the car for the trip down to Brisban[e].
 
-Before I knew what had happen[e]d, I was back on a plane in Brisban[e] and flying home …
-
-… on the Br(u)c[e] Highway was he[a]vy. Aunty Jess thought that we might hit the peak hour traffic which could add an extra hour to our journey. Fortunately this didn't happen, and we arrived in plenty of time to drop off our bags and pass through all of the immigr(a)[t]^{sh}ion checks to get to the gate.
+We had check[e]d into our fl(i)[gh]ts online, so we didn't have to worry if the traffic on the Br(u)^{oo}[c]^s[e] Highway was he[a]vy. Aunty Jess thought that we might hit the peak hour traffic which could add an extra hour to our journey. Fortunately this didn't happen, and we arrived in plenty of time to drop off our bags and pass through all of the immigr(a)[ti]^{sh}on checks to get to the gate.
 
 Our fl(i)[gh]t was very busy and I saw many other children who were travelling back to Singapore without their parents. Mum told me that they had probably been on holidays visiting some other members of their family too. I ask[e]d if next year I could travel on my own to visit Jack and Aunty Jess again. Mum didn't reply but look[e]d at Dad and said something about growing up too quickly.
 
 There was nothing extraordinary about the fl(i)[gh]t home. I was again allow[e]d to order anything I wanted to eat and drink and the people on the plane were very nice to me. Dad said it was because I always used my lovel(i)^eest manners whenever I spoke to them.
 
-Nanna and Aunt Janet were there to meet us at the airport in Singapore when we finally landed. I was so ex[c]ited to see them. I couldn't believe that we had only been away for a week; it seem[e]d more like a month. They were very pleased to see us too and I could tell again that Mum was ex[c]ited because she was talking lots and lots. Dad sat quietly in the back seat with me as we drove down the airport road and onto the PIE heading for home.
+Nanna and Aunt Janet were there to meet us at the airport in Singapore when we finally landed. I was so ex[c]ited to see them. I couldn't believe that we had only been away for a week; it seem[e]d more like a month. They were very pleased to see us too and I could tell again that Mum was ex[c]ited because she was talking lots and lots. Dad sat qu(i)etly in the back seat with me as we drove down the airport road and onto the PIE heading for home.
 
 I had had a w{o}^und<er>f{u}^{oo}l holiday in Australia. I so enjoy[e]d playing with Jack and seeing Aunty Jess. Tomorrow I will be back at school, this time with a terrific story to share with all of my friends. I just hope Mum and Dad will let me travel back to Australia on my own next year.
 
@@ -205,11 +203,7 @@ A fire had started in the bush and the animals needed to find a safe place to hi
 
 Lizzie didn't answer and was nowhere to be seen. She hadn't heard Bob's loud shouts, so Bob hurried on his way to get to the rock pile. On the way down the hillside, he met other animals preparing to hide.
 
-"Please, Mrs Wombat, have you seen my wife? There's a bush fire coming and I need to know …
-
-! In the Teacher Copy, a teacher note covers about a line here. Please check the student WorkBook for the missing words.
-
-… Bob in a worried voice. Mrs Wombat's house was built in the ground, with a long, narrow burrow and dirt heaped all around.
+"Please, Mrs Wombat, have you seen my wife? There's a bush fire coming and I need to know if she's all right," said Bob in a worried voice. Mrs Wombat's house was built in the ground, with a long, narrow burrow and dirt heaped all around.
 
 "Lizzie didn't come this way. In fact, I haven't seen her at all today. But if I do, I'll send her on. Don't worry, she knows where she belongs," said Mrs Wombat.
 
@@ -217,7 +211,7 @@ Bob was moving along quickly. The smell of smoke was getting quite strong now. T
 
 "Please, Mr Snake, can you help me? I'm looking for my wife. I don't want her *getting* *into* *strife*," said Bob.
 
-"Sssssssorry, I haven't sssssssseen Mrs Lizard, but if I do, you'll be the first to know. I'll sssssssend a sssssssignal," Mr Snake hissed.
+"Sssssssorry, I haven't ssssssseen Mrs Lizard, but if I do, you'll be the first to know. I'll sssssssend a sssssssignal," Mr Snake hissed.
 
 By now, Bob was running out of time as the bush fire was getting closer. As he got near the pile of rocks he saw Brown Owl, who had been woken up by all the noise and the smell of smoke.
 

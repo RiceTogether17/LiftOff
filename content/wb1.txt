@@ -87,7 +87,7 @@ S{e}v{e}n fr[i]{e}nds h{a}d m{e}t n{e}xt to the sh{e}d. "L{e}t's h{e}lp Br{e}nd{
 
 The r{e}st of the fr[i]{e}nds st{e}p[p][e]d b{a}[c]k. B{e}th {a}nd Br{e}nd{a}n s{e}l{e}ct{e}d a sp{e}l[l]. Then B{e}th {a}nd Br{e}nd{a}n said the sp{e}l[l]!
 
-A bl{a}[c]k {a}nd r{e}d fl{a}sh cr{a}[c]k[e]d. Then a n{e}st, a [w]r{e}n {a}nd {a}n {e}g[g] l{a}nd{e}d n{e}xt to them. The [w]r{e}n said, "T{e}n r{e}d h{e}ns are in the sh{e}d." Then the n{e}st, {e}g[g] {a}nd [w]r{e}n w{e}nt.
+A bl{a}[c]k {a}nd r{e}d fl{a}sh cr{a}[c]k[e]d. Then a n{e}st, a [w]r{e}n {a}nd {a}n {e}g[g] l{a}nd{e}d n{e}xt to th{e}m. The [w]r{e}n said, "T{e}n r{e}d h{e}ns are in the sh{e}d." Then the n{e}st, {e}g[g] {a}nd [w]r{e}n w{e}nt.
 
 B{e}th {a}nd Br{e}nd{a}n {a}nd the fr[i]{e}nds w{e}nt to the sh{e}d {a}s the [w]r{e}n h{a}d said. In the sh{e}d, t{e}n r{e}d h{e}ns s{a}t on t{e}n white {e}g[g]s.
 
@@ -165,7 +165,7 @@ B{o}b d{a}sh{e}s {a}nd g{e}ts the r{o}[c]k. B{o}b p{i}[c]ks it {u}p {a}nd d{a}sh
 
 T{o}m gr{a}bs the r{o}[c]k so th{a}t T{o}m {a}nd B{o}b c{a}n go to h{a}v[e] a dr{i}nk.
 
-Then they go to the p{o}nd. T{o}m dr{o}ps the r{o}[c]k into the p{o}nd. Spl{a}sh! It spl{a}sh{e}s th{e}m. T{o}m {a}nd B{o}b g{e}t w{e}t.
+Then they go to the p{o}nd. T{o}m dr{o}ps the r{o}[c]k into the p{o}nd. Spl{a}sh! It spl{a}sh{e}s th{e}m. T{o}m and B{o}b g{e}t w{e}t.
 
 ?qa What is Bob?
 = Bob is a big dog.
@@ -185,7 +185,7 @@ Sp{o}t was st{i}l[l] w{a}^o[t]ch{i}ng the b{a}g w{i}th the l{a}m[b] ch{o}ps, som
 
 J{o}sh {a}nd R{o}b{i}n h{a}d l{o}st the ch{o}ps {a}nd Sp{o}t the d{o}g. They st{i}l[l] h{a}d the c{a}r[r]{o}ts w{i}th some s{a}^olt for their p{i}cn{i}c.
 
-When they w{e}nt b{a}[c]k over the l{i}t[t]l[e] h{i}l[l], Sp{o}t was n{o}t w{i}th th{e}m. Sp{o}t {a}nd the fr{o}g were ch{o}mp{i}ng on the ch{o}ps in the f{o}r{e}st.
+When they w{e}nt b{a}[c]k over the l{i}t[t]l[e] h{i}l[l], Sp{o}t was not w{i}th th{e}m. Sp{o}t {a}nd the fr{o}g were ch{o}mp{i}ng on the ch{o}ps in the f{o}r{e}st.
 
 Sp{o}t would come b{a}[c]k over the l{i}t[t]l[e] h{i}l[l] when he {a}nd the fr{o}g h{a}d f{i}n{i}sh[e]d ch{o}mp{i}ng on the l{a}m[b] ch{o}ps.
 
@@ -201,11 +201,11 @@ focus: u
 words: j{u}st c{u}t t{u}b r{u}g m{u}s[c]l{e}s s{u}n f{u}n m{u}m {U}g[g]l[e] {U}ncl[e] m{u}ch b{u}mp j{u}mp l{u}mp str{u}[c]k tr{u}[c]k b{u}t br{u}sh l{u}nch d{i}ff{i}c{u}lt D{u}nc{a}n cr{u}m[b] th{u}m[b] {u}mbr{e}l[l]{a}^u {a}nt{e}n[n]{a}^u
 
 ### J{u}mp{i}ng {U}g[g]l{e}s
-{U}g the y{o}^ung {u}g[g]l[e] h{u}d[d]l{e}s, cold {a}nd w{e}t, {u}nder his {u}mbr{e}l[l]{a}^u. He h{a}s a b{i}g h{e}[a]d w{i}th {a}n {a}nt{e}n[n]{a}^u on t{o}p. This story is about one day when {U}g the {u}g[g]l[e] h{a}s to do his j{o}bs before he c{a}n fr{o}l{i}c w{i}th his fr[i]{e}nds.
+{U}g the y[o]{u}ng {u}g[g]l[e] h{u}d[d]l[e]s, cold {a}nd w{e}t, under his {u}mbr{e}l[l]{a}^u. He h{a}s a b{i}g h{e}[a]d w{i}th {a}n {a}nt{e}n[n]{a}^u on t{o}p. This story is about one day when {U}g the {u}g[g]l[e] h{a}s to do his j{o}bs before he c{a}n fr{o}l{i}c w{i}th his fr[i]{e}nds.
 
-{U}p above h{i}m, the other {u}g[g]l{e}s j{u}mp. {U}g loves to j{u}mp too, b{u}t he h{a}s too m{u}ch to do before he c{a}n fr{o}l{i}c {a}nd j{u}mp w{i}th his {u}g[g]l[e] fr[i]{e}nds.
+{U}p above h{i}m, the other {u}g[g]l[e]s j{u}mp. {U}g loves to j{u}mp too, b{u}t he h{a}s too m{u}ch to do before he c{a}n fr{o}l{i}c {a}nd j{u}mp w{i}th his {u}g[g]l[e] fr[i]{e}nds.
 
-{U}p above h{i}m, the other {u}g[g]l{e}s h{a}v[e] some p{u}nch. {U}g loves p{u}nch too, b{u}t he h{a}s too m{u}ch to do before he c{a}n fr{o}l{i}c {a}nd h{a}v[e] p{u}nch w{i}th his {u}g[g]l[e] fr[i]{e}nds.
+{U}p above h{i}m, the other {u}g[g]l[e]s h{a}v[e] some p{u}nch. {U}g loves p{u}nch too, b{u}t he h{a}s too m{u}ch to do before he c{a}n fr{o}l{i}c {a}nd h{a}v[e] p{u}nch w{i}th his {u}g[g]l[e] fr[i]{e}nds.
 
 {U}g puts the r{u}b[b]{i}sh in the b{i}n {a}nd f{i}n{i}sh{e}s his j{o}bs. Now, {U}g c{a}n fr{o}l{i}c {a}nd h{a}v[e] f{u}n w{i}th his fr[i]{e}nds.
 
@@ -228,7 +228,7 @@ words: j{u}st c{u}t t{u}b r{u}g m{u}s[c]l{e}s s{u}n f{u}n m{u}m {U}g[g]l[e] {U}n
 ### M{u}ch F{u}n
 It was h{o}t. D{u}nc{a}n {a}nd M{a}lc{o}[l]m r{u}sh[e]d to g{e}t {U}ncl[e] B{u}[c]k {a}nd M{u}m. They want{e}d a sw{i}m {a}nd some f{u}n in the s{u}n. "Come on {U}ncl[e] B{u}[c]k!" b{e}g[g][e]d D{u}nc{a}n. {U}ncl[e] B{u}[c]k {a}nd M{u}m j{u}mp[e]d {u}p.
 
-M{u}m put l{u}nch into a b{u}[c]k{e}t. She p{a}[c]k[e]d s{a}n[d]w{i}ch{e}s to m{u}nch on, some n{u}ts, a j{u}g of p{u}nch, some dr{i}nk{i}ng water, m{u}gs, c{u}ps {a}nd her b{i}g {u}mbr{e}l[l]{a}^u. "L{e}t's go sw{i}m[m]{i}ng," they all s{a}ng {a}s they t{u}mbl[e]d into the tr{u}[c]k. They fr{o}l{i}[c]k[e]d in the p{u}d[d]l{e}s {u}nder the h{o}t s{u}n. They c{o}l[l]{e}ct{e}d sh{e}l[l]s {a}nd b[u]{i}lt s{a}nd c{a}s[t]l{e}s. M{u}m made D{u}nc{a}n {a}nd M{a}lc{o}[l]m put s{u}nbl{o}[c]k on their sk{i}n {a}nd put on h{a}ts before too m{u}ch s{u}n made th{e}m s{i}[c]k. "L{e}t's sw{i}m in the salt water before the s{u}n s{e}ts!" y{e}l[l][e]d {U}ncl[e] B{u}[c]k.
+M{u}m put l{u}nch into a b{u}[c]k{e}t. She p{a}[c]k[e]d s{a}n[d]w{i}ch{e}s to m{u}nch on, some n{u}ts, a j{u}g of p{u}nch, some dr{i}nk{i}ng water, m{u}gs, c{u}ps {a}nd her b{i}g {u}mbr{e}l[l]{a}^u. "L{e}t's go sw{i}m[m]{i}ng," they all s{a}ng {a}s they t{u}mbl[e]d into the tr{u}[c]k. They fr{o}l{i}[c]k[e]d in the p{u}d[d]l[e]s under the h{o}t s{u}n. They c{o}l[l]{e}ct{e}d sh{e}l[l]s {a}nd b[u]{i}lt s{a}nd c{a}s[t]l[e]s. M{u}m made D{u}nc{a}n {a}nd M{a}lc{o}[l]m put s{u}nbl{o}[c]k on their sk{i}n {a}nd put on h{a}ts before too m{u}ch s{u}n made th{e}m s{i}[c]k. "L{e}t's sw{i}m in the salt water before the s{u}n s{e}ts!" y{e}l[l][e]d {U}ncl[e] B{u}[c]k.
 
 Then they all s{a}t {u}nder M{u}m's b{i}g {u}mbr{e}l[l]{a}^u {a}nd w{a}^o[t]ch[e]d the s{u}n s{e}t over the water. "Th{a}t was so m{u}ch f{u}n," c{o}m[m]{e}nt{e}d M{a}lc{o}[l]m. {A}nd they all said th{a}t they would do it again the n{e}xt day.
 
@@ -269,11 +269,11 @@ The cr{oo}k w{e}nt across the w{oo}d{e}n st{e}ps. They t{oo}k h{i}m to the sp{e}
 
 The w{i}[t]ch was w{a}^o[t]ch{i}ng. She could t{e}l[l] th{a}t the cr{oo}k was in her f{o}r{e}st l{oo}k{i}ng to take her sp{e}l[l] b{oo}k.
 
-The cr{oo}k sh{oo}k {a}s he t{oo}k the sp{e}l[l] b{oo}k th{a}t st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st. He l{oo}k[e]d {a}t the sp{e}l[l] he want{e}d {a}nd r{e}[a]d it fr{o}m the b{oo}k.
+The cr{oo}k sh{oo}k {a}s he t{oo}k the sp{e}l[l] b{oo}k th{a}t st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st. He l{oo}k[e]d {a}t the sp{e}l[l] he want{e}d {a}nd r{e}[a]d it from the b{oo}k.
 
 *Swoosh!* *Kaboosh!* *Smoosh!*
 
-The cr{oo}k sh{oo}k {a}s he r{a}n fr{o}m the sp{e}l[l] b{oo}k th{a}t st{i}l[l] st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st.
+The cr{oo}k sh{oo}k {a}s he r{a}n from the sp{e}l[l] b{oo}k th{a}t st{i}l[l] st{oo}d on the sh{e}lf in the w{i}[t]ch's f{o}r{e}st.
 
 The w{i}[t]ch c{a}[c]kl[e]d!
 

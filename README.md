@@ -38,6 +38,7 @@ like this:
 
 ```
 (ai)  long vowel       {o}  other vowel sound   <ar>  diphthong   [e]  silent
+[ph]^f  dark grey: letters that make the small cue sound (ph → f, ti → sh)
 ^j    small cue letter above the grapheme before it   (^{oo} for longer cues)
 m{o}^un(ey)^e  →  m · o (red, cue "u") · n · ey (blue, cue "e")
 ```
@@ -46,6 +47,7 @@ To add a workbook, create a new `content/wbN.txt` file. The app picks it up
 automatically, and `npm test` checks that the coding marks are balanced and
 the quiz answers are valid.
 
-Where a teacher note covers part of the text in the Teacher Copy, the story
-shows a 📝 note saying so. Please fill in those gaps from the student
-WorkBook.
+WorkBooks 1–5 have been checked against the student WorkBook PDFs, which carry
+a text layer: every sentence, question and vocabulary word, and the colour of
+every letter (about 97% of words; the rest sit where text boxes break mid
+sentence). WorkBook 6 is transcribed from the Teacher Copy only.

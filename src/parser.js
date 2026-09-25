@@ -8,6 +8,7 @@
  *   {o}    red    – vowel making a different sound (usually with a cue)
  *   <ar>   green  – diphthong
  *   [e]    grey   – silent letters
+ *   [ph]^f dark grey – letters that make the cue's sound (ph → f, ti → sh)
  *   ^j     cue    – small letter(s) printed above the previous grapheme
  *   ^{oo}         (braces for multi-letter cues)
  *

@@ -15,7 +15,10 @@ export function esc(s) {
  */
 export function segHtml(seg) {
   const text = esc(seg.text);
-  const cls = seg.kind === 'plain' ? '' : ` class="c-${seg.kind}"`;
+  // A grey letter with a cue above it is not silent: the workbooks print it in
+  // a darker grey to show it makes the cue's sound (ph → f, ti → sh).
+  const kind = seg.kind === 'silent' && seg.cue ? 'alt' : seg.kind;
+  const cls = kind === 'plain' ? '' : ` class="c-${kind}"`;
   // The cue floats above the letter (like the workbook) without widening it.
   const inner = seg.cue ? `<span class="cue-base">${text}<span class="cue" aria-hidden="true">${esc(seg.cue)}</span></span>` : text;
   return cls || seg.cue ? `<span${cls || ' class="c-cue"'}>${inner}</span>` : inner;
