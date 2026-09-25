@@ -38,6 +38,18 @@ cp .env.example .env    # then set LIFTOFF_PASSWORD=... in .env
 Changing the password only needs a new `.env` value and a rebuild; devices
 that were remembered will be asked for the password again.
 
+## Publish on GitHub Pages
+
+`.github/workflows/deploy.yml` builds and publishes the site on every push to
+`main`. One-time setup in the repository settings:
+
+1. **Settings → Secrets and variables → Actions → New repository secret**:
+   name `LIFTOFF_PASSWORD`, value = the password.
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+(“Deploy from a branch” does not work: it publishes the unbuilt source files,
+which shows a blank page.)
+
 ## Run it
 
 ```bash

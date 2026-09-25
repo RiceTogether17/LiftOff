@@ -1,0 +1,54 @@
+name: Deploy to GitHub Pages
+
+# Builds the app (which encrypts the stories with the password) and publishes
+# it. The password comes from the LIFTOFF_PASSWORD repository secret.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Check the password secret is set
+        env:
+          LIFTOFF_PASSWORD: ${{ secrets.LIFTOFF_PASSWORD }}
+        run: |
+          if [ -z "$LIFTOFF_PASSWORD" ]; then
+            echo "::error::Add a repository secret named LIFTOFF_PASSWORD (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+      - run: npm ci
+      - run: npm test
+      - name: Build
+        env:
+          LIFTOFF_PASSWORD: ${{ secrets.LIFTOFF_PASSWORD }}
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
