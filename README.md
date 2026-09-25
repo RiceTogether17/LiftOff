@@ -21,6 +21,23 @@ way a LiftOff teacher would.
 
 Progress is saved in the browser on the device being used (localStorage).
 
+## Password lock
+
+The stories are encrypted when the site is built (AES-GCM, key derived from
+the password with PBKDF2), so the published files never contain them in
+readable form. Visitors must enter the password to open the app; "Remember
+this device" keeps them signed in, and 🔒 Lock on the library page signs out.
+
+The password is **not** stored in the repository. Before running or
+building, create a `.env` file (git-ignored) next to `package.json`:
+
+```bash
+cp .env.example .env    # then set LIFTOFF_PASSWORD=... in .env
+```
+
+Changing the password only needs a new `.env` value and a rebuild; devices
+that were remembered will be asked for the password again.
+
 ## Run it
 
 ```bash
